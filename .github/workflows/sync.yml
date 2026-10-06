@@ -1,0 +1,53 @@
+name: Sync from aperiodic.io
+
+# Copies the published comparison from aperiodic.io/compare into data/, so the
+# files here match the website. Changes on the website go through review there
+# before they are published, so this job commits them directly.
+
+on:
+  schedule:
+    # Daily, 05:23 UTC
+    - cron: '23 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download the published data
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 3 -o "$RUNNER_TEMP/crypto-data-vendors.json" https://aperiodic.io/compare/crypto-data-vendors.json
+          curl -fsSL --retry 3 -o "$RUNNER_TEMP/crypto-data-vendors.csv" https://aperiodic.io/compare/crypto-data-vendors.csv
+
+      - name: Check it before replacing anything
+        run: |
+          set -euo pipefail
+          jq -e '.cells | length > 0' "$RUNNER_TEMP/crypto-data-vendors.json" > /dev/null
+          jq -e '.disclosure and .license and .updated' "$RUNNER_TEMP/crypto-data-vendors.json" > /dev/null
+          head -n 1 "$RUNNER_TEMP/crypto-data-vendors.csv" | grep -qx 'vendor_id,vendor,section,criterion_id,criterion,status,value,note,source_urls,checked'
+          cp "$RUNNER_TEMP/crypto-data-vendors.json" "$RUNNER_TEMP/crypto-data-vendors.csv" data/
+
+      - name: Commit changes
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- data; then
+            echo "Already in sync."
+            exit 0
+          fi
+          updated=$(jq -r '.updated' data/crypto-data-vendors.json)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "Sync data from aperiodic.io/compare (updated $updated)"
+          git push
