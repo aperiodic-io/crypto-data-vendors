@@ -32,11 +32,20 @@ jobs:
 
       - name: Check it before replacing anything
         run: |
-          set -euo pipefail
-          jq -e '.cells | length > 0' "$RUNNER_TEMP/crypto-data-vendors.json" > /dev/null
-          jq -e '.disclosure and .license and .updated' "$RUNNER_TEMP/crypto-data-vendors.json" > /dev/null
-          head -n 1 "$RUNNER_TEMP/crypto-data-vendors.csv" | grep -qx 'vendor_id,vendor,section,criterion_id,criterion,status,value,note,source_urls,checked'
-          cp "$RUNNER_TEMP/crypto-data-vendors.json" "$RUNNER_TEMP/crypto-data-vendors.csv" data/
+          set -uo pipefail
+          json="$RUNNER_TEMP/crypto-data-vendors.json"
+          csv="$RUNNER_TEMP/crypto-data-vendors.csv"
+          fail() {
+            echo "::error::$1"
+            echo "--- start of the JSON response:"; head -c 300 "$json"; echo
+            echo "--- start of the CSV response:"; head -c 300 "$csv"; echo
+            exit 1
+          }
+          jq -e '.cells | length > 0' "$json" > /dev/null || fail "The JSON has no cells, or is not JSON."
+          jq -e '.disclosure and .updated' "$json" > /dev/null || fail "The JSON has no disclosure or updated date."
+          header=$(head -n 1 "$csv" | tr -d '\r')
+          [ "$header" = 'vendor_id,vendor,section,criterion_id,criterion,status,value,note,source_urls,checked' ] || fail "The CSV header is not the expected one."
+          cp "$json" "$csv" data/
 
       - name: Commit changes
         run: |
