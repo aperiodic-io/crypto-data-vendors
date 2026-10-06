@@ -1,0 +1,721 @@
+vendor_id,vendor,section,criterion_id,criterion,status,value,note,source_urls,checked
+tardis,Tardis.dev,What it is,primary-product,Primary product,Documented,"Raw tick market data, collected and archived",,https://docs.tardis.dev/downloadable-csv-files https://docs.tardis.dev/faq/data https://docs.tardis.dev/faq/general,2026-10-01
+kaiko,Kaiko,What it is,primary-product,Primary product,Documented,"Institutional market data, benchmarks and analytics",,https://docs.kaiko.com/explore-our-data/data-dictionary https://docs.kaiko.com/ https://www.kaiko.com/,2026-07-28
+aperiodic,Aperiodic.io,What it is,primary-product,Primary product,Documented,"Crypto microstructure, liquidity & flow metrics, plus the raw trades, top-of-book quotes and derivatives data behind them",,https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw,2026-10-05
+coinapi,CoinAPI,What it is,primary-product,Primary product,Documented,Normalised multi-venue market data API,,https://www.coinapi.io/products/market-data-api/pricing https://www.coinapi.io/products/market-data-api,2026-10-01
+crypto-lake,Crypto Lake,What it is,primary-product,Primary product,Documented,Historical order book and trades as parquet,,https://crypto-lake.com/data/,2026-10-01
+coin-metrics,Coin Metrics,What it is,primary-product,Primary product,Documented,"Network and market data, plus computed metrics",,https://coinmetrics.io/market-data-pro/,2026-07-28
+exchange-archives,Exchange archives,What it is,primary-product,Primary product,Documented,Raw dumps published by the venue itself,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,What it is,primary-product,Primary product,Documented,"Market, derivatives and on-chain data with analytics, incl. GVOL options",,https://www.amberdata.io/derivatives-analytics https://www.amberdata.io/deribit-market-data https://docs.amberdata.io/docs/market/market-overview https://docs.amberdata.io/data-dictionary/market/order-books,2026-07-28
+coindesk-data,CoinDesk Data,What it is,primary-product,Primary product,Documented,"Normalised trade, order book and derivatives data, indices (ex-CryptoCompare / CCData)",,https://data.coindesk.com/derivatives https://data.coindesk.com/trade-data https://data.coindesk.com/order-book,2026-10-01
+glassnode,glassnode,What it is,primary-product,Primary product,Documented,On-chain and market metrics,,https://docs.glassnode.com/basic-api/endpoints/market,2026-10-01
+velo,Velo,What it is,primary-product,Primary product,Documented,"Aggregated futures, options and spot market data with charting",,https://docs.velo.xyz/api/data,2026-10-01
+laevitas,Laevitas,What it is,primary-product,Primary product,Documented,"Crypto derivatives data and analytics: options, perpetuals, dated futures",,https://apiv2.laevitas.ch/llms.txt,2026-10-01
+cryptoquant,CryptoQuant,What it is,primary-product,Primary product,Documented,"On-chain and market data API, 245+ metrics",,https://docs.cryptoquant.com/catalog/catalog.json,2026-10-01
+coingecko,CoinGecko,What it is,primary-product,Primary product,Documented,"Aggregated prices, market caps and volumes; CEX and DEX",,https://docs.coingecko.com/index.md,2026-10-01
+coinglass,CoinGlass,What it is,primary-product,Primary product,Documented,"Derivatives analytics: OI, funding, liquidations, long/short",,https://docs.coinglass.com/llms.txt,2026-10-01
+coinalyze,Coinalyze,What it is,primary-product,Primary product,Documented,"Free futures analytics: OI, funding, liquidations, long/short",,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,What it is,primary-product,Primary product,Documented,"Liquidation levels, order book and positioning analytics",,https://docs.hyblockcapital.com/llms.txt https://docs.hyblockcapital.com/bid-ask-ratio,2026-10-01
+coinmarketcap,CoinMarketCap,What it is,primary-product,Primary product,Documented,"Aggregated prices, market caps, exchange and DEX data",,https://coinmarketcap.com/api/documentation/v1,2026-10-01
+tardis,Tardis.dev,What it is,ownership,Ownership,Not verified,Not verified,,,2026-10-01
+kaiko,Kaiko,What it is,ownership,Ownership,Documented,"Independent; acquired Amberdata, announced June 2026",,https://www.kaiko.com/news/kaiko-acquires-amberdata-in-landmark-digital-asset-data-consolidation,2026-10-01
+aperiodic,Aperiodic.io,What it is,ownership,Ownership,Documented,"Aperiodic Limited, incorporated in Ireland",,https://aperiodic.io/terms-of-service,2026-10-05
+coinapi,CoinAPI,What it is,ownership,Ownership,Not verified,Not verified,,,2026-10-01
+crypto-lake,Crypto Lake,What it is,ownership,Ownership,Not verified,Not verified,,,2026-10-01
+coin-metrics,Coin Metrics,What it is,ownership,Ownership,Documented,"Talos, an execution and portfolio management vendor, announced July 2025",,https://www.talos.com/insights/talos-to-acquire-coin-metrics,2026-10-01
+exchange-archives,Exchange archives,What it is,ownership,Ownership,Documented,The exchange itself,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,What it is,ownership,Ownership,Documented,"Kaiko, acquisition announced June 2026",,https://www.kaiko.com/news/kaiko-acquires-amberdata-in-landmark-digital-asset-data-consolidation,2026-10-01
+coindesk-data,CoinDesk Data,What it is,ownership,Ownership,Not verified,Not verified,,,2026-10-01
+glassnode,glassnode,What it is,ownership,Ownership,Documented,Independent (operated by Glassnode Services AG),,https://studio.glassnode.com/impressum,2026-10-01
+velo,Velo,What it is,ownership,Ownership,Not disclosed,Not disclosed; terms of service name no operating company,,https://docs.velo.xyz/terms-of-service https://docs.velo.xyz/llms-full.txt,2026-10-01
+laevitas,Laevitas,What it is,ownership,Ownership,Documented,Independent (operated by Laevitas Pte. Ltd.),,https://laevitas.ch/TermsOfService,2026-10-01
+cryptoquant,CryptoQuant,What it is,ownership,Ownership,Documented,Independent (operated by Team Blackbird Inc.),,https://cryptoquant.com/pricing,2026-10-01
+coingecko,CoinGecko,What it is,ownership,Ownership,Documented,Independent (operated by Gecko Labs Pte. Ltd.),,https://www.coingecko.com/en/terms,2026-10-01
+coinglass,CoinGlass,What it is,ownership,Ownership,Not disclosed,Not disclosed; terms and About page name no operating company,,https://www.coinglass.com/terms https://docs.coinglass.com/reference/price-ohlc-history,2026-10-01
+coinalyze,Coinalyze,What it is,ownership,Ownership,Not disclosed,Not disclosed; privacy policy and disclaimer name no operating company,,https://coinalyze.net/privacy-policy https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,What it is,ownership,Ownership,Documented,Independent (operated by Hyblock Capital L.L.C.),,https://hyblockcapital.com/terms-of-use,2026-10-01
+coinmarketcap,CoinMarketCap,What it is,ownership,Ownership,Documented,"Acquired by Binance, announced April 2020; operated by CoinMarketCap Mgmt Limited",,https://www.binance.com/en/blog/all/binance-x-coinmarketcap-joining-forces-to-make-crypto-more-accessible-worldwide-421499824684900494 https://coinmarketcap.com/terms,2026-10-01
+tardis,Tardis.dev,Universe and integrity,exchanges-covered,Exchanges covered,Documented,"50+, over 50,000 instruments",,https://docs.tardis.dev/faq/general,2026-07-28
+kaiko,Kaiko,Universe and integrity,exchanges-covered,Exchanges covered,Vendor claim,Broad (vendor claim),,https://www.kaiko.com/,2026-09-25
+aperiodic,Aperiodic.io,Universe and integrity,exchanges-covered,Exchanges covered,Documented,"Binance futures, OKX perps, Hyperliquid perps, Bybit coming soon",,https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw https://aperiodic.io/roadmap,2026-10-05
+coinapi,CoinAPI,Universe and integrity,exchanges-covered,Exchanges covered,Vendor claim,400+ (vendor claim),,https://www.coinapi.io/products/market-data-api/pricing https://www.coinapi.io/products/market-data-api,2026-10-01
+crypto-lake,Crypto Lake,Universe and integrity,exchanges-covered,Exchanges covered,Documented,"9 venue feeds in the coverage table (e.g. Binance spot and futures, OKX, Bybit, KuCoin, Gate.io)",,https://crypto-lake.com/coverage/ https://crypto-lake.com/free-data/,2026-10-01
+coin-metrics,Coin Metrics,Universe and integrity,exchanges-covered,Exchanges covered,Documented,"40+, 400k+ markets",,https://coinmetrics.io/market-data-pro/,2026-07-28
+exchange-archives,Exchange archives,Universe and integrity,exchanges-covered,Exchanges covered,Documented,One per archive,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,Universe and integrity,exchanges-covered,Exchanges covered,Documented,"30+ exchanges, 6,365+ pairs across spot, futures, options",,https://docs.amberdata.io/docs/market/market-overview https://docs.amberdata.io/data-dictionary/market/order-books,2026-10-01
+coindesk-data,CoinDesk Data,Universe and integrity,exchanges-covered,Exchanges covered,Vendor claim,"300+ (vendor claim), 300,000+ pairs",,https://data.coindesk.com/trade-data https://data.coindesk.com/order-book,2026-10-01
+glassnode,glassnode,Universe and integrity,exchanges-covered,Exchanges covered,Documented,"Binance, Coinbase, OKX, Bybit, Deribit, Hyperliquid, Kraken and others, plus CME; order book metrics on Binance and Coinbase only",,https://docs.glassnode.com/basic-api/endpoints/derivatives https://docs.glassnode.com/basic-api/endpoints/market,2026-10-01
+velo,Velo,Universe and integrity,exchanges-covered,Exchanges covered,Not verified,Not verified,,,2026-10-01
+laevitas,Laevitas,Universe and integrity,exchanges-covered,Exchanges covered,Vendor claim,"15+ (vendor claim); API v2 covers Binance, Deribit, OKX, Bybit, Hyperliquid",,https://apiv2.laevitas.ch/llms.txt https://laevitas.ch/pricing,2026-10-01
+cryptoquant,CryptoQuant,Universe and integrity,exchanges-covered,Exchanges covered,Documented,"Spot incl. Binance, Coinbase, Kraken, OKX, Bitfinex; perps on Binance, BitMEX, Bybit, Deribit, HTX, OKX (BTC lists; varies by asset)",,https://docs.cryptoquant.com/api-reference/btc-market-data/price-ohlcv,2026-10-01
+coingecko,CoinGecko,Universe and integrity,exchanges-covered,Exchanges covered,Documented,"1,500+ centralised exchanges; 1,800+ DEXes via GeckoTerminal",,https://docs.coingecko.com/index.md,2026-10-01
+coinglass,CoinGlass,Universe and integrity,exchanges-covered,Exchanges covered,Documented,"30 futures, 11 spot and 4 options venues (pricing FAQ)",,https://www.coinglass.com/pricing,2026-10-01
+coinalyze,Coinalyze,Universe and integrity,exchanges-covered,Exchanges covered,Not verified,Not verified,,,2026-10-01
+hyblock,Hyblock Capital,Universe and integrity,exchanges-covered,Exchanges covered,Vendor claim,"20+ venues, 1,000+ tickers (vendor claim)",,https://hyblockcapital.com/api-explorer,2026-10-01
+coinmarketcap,CoinMarketCap,Universe and integrity,exchanges-covered,Exchanges covered,Documented,941+ exchanges (API docs),,https://coinmarketcap.com/api/documentation/v1,2026-10-01
+tardis,Tardis.dev,Universe and integrity,full-universe,Full instrument universe per venue,Yes,"Yes, except some spot venues where only high-cap pairs are collected",,https://docs.tardis.dev/faq/general,2026-07-28
+kaiko,Kaiko,Universe and integrity,full-universe,Full instrument universe per venue,Not verified,Not verified,,,2026-10-01
+aperiodic,Aperiodic.io,Universe and integrity,full-universe,Full instrument universe per venue,Yes,"Yes, on covered venues",,https://aperiodic.io/,2026-10-05
+coinapi,CoinAPI,Universe and integrity,full-universe,Full instrument universe per venue,Not verified,Not verified,,,2026-10-01
+crypto-lake,Crypto Lake,Universe and integrity,full-universe,Full instrument universe per venue,No,"No: top 10+ tokens plus 50+ selected smaller ones; pairs added incrementally, not from listing date",,https://crypto-lake.com/coverage/,2026-10-01
+coin-metrics,Coin Metrics,Universe and integrity,full-universe,Full instrument universe per venue,Yes,"Yes for trades, collected from listing day; 10s book snapshots on major markets only",,https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/market-trades https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/market-order-books,2026-10-01
+exchange-archives,Exchange archives,Universe and integrity,full-universe,Full instrument universe per venue,Yes,Yes,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,Universe and integrity,full-universe,Full instrument universe per venue,Yes,"Yes, order books for every pair on supported exchanges; venues are a curated top-volume set",,https://docs.amberdata.io/data-dictionary/market/order-books https://docs.amberdata.io/data-dictionary/market/market-faqs,2026-10-01
+coindesk-data,CoinDesk Data,Universe and integrity,full-universe,Full instrument universe per venue,Yes,"Yes, tick trade history for all instruments on covered venues",,https://data.coindesk.com/trade-data https://data.coindesk.com/order-book,2026-10-01
+glassnode,glassnode,Universe and integrity,full-universe,Full instrument universe per venue,Partial,"Partial, metrics are per asset, not per instrument; spot flow metrics use USD-quoted pairs only",,https://docs.glassnode.com/basic-api/endpoints/market,2026-10-01
+velo,Velo,Universe and integrity,full-universe,Full instrument universe per venue,Not verified,Not verified,,,2026-10-01
+laevitas,Laevitas,Universe and integrity,full-universe,Full instrument universe per venue,Not verified,Not verified,,,2026-10-01
+cryptoquant,CryptoQuant,Universe and integrity,full-universe,Full instrument universe per venue,No,"No, one or two pairs per venue (e.g. BTC on Binance spot is btc_usdt only)",,https://docs.cryptoquant.com/api-reference/btc-market-data/price-ohlcv,2026-10-01
+coingecko,CoinGecko,Universe and integrity,full-universe,Full instrument universe per venue,Not verified,Not verified,,,2026-10-01
+coinglass,CoinGlass,Universe and integrity,full-universe,Full instrument universe per venue,Not verified,Not verified,,,2026-10-01
+coinalyze,Coinalyze,Universe and integrity,full-universe,Full instrument universe per venue,Not verified,Not verified,,,2026-10-01
+hyblock,Hyblock Capital,Universe and integrity,full-universe,Full instrument universe per venue,Not verified,Not verified,,,2026-10-01
+coinmarketcap,CoinMarketCap,Universe and integrity,full-universe,Full instrument universe per venue,Not verified,Not verified,,,2026-10-01
+tardis,Tardis.dev,Universe and integrity,delisted-retained,Delisted / expired instruments retained,Yes,"Yes, stated survivorship-bias-free",,https://docs.tardis.dev/faq/data https://docs.tardis.dev/faq/general,2026-10-01
+kaiko,Kaiko,Universe and integrity,delisted-retained,Delisted / expired instruments retained,Yes,"Yes, inactive instruments stay in reference data with a last-trade time",,https://docs.kaiko.com/rest-api/reference-data/exchange-trading-pair-codes-instruments,2026-10-01
+aperiodic,Aperiodic.io,Universe and integrity,delisted-retained,Delisted / expired instruments retained,Yes,Yes,,https://aperiodic.io/,2026-10-05
+coinapi,CoinAPI,Universe and integrity,delisted-retained,Delisted / expired instruments retained,Yes,"Yes, history kept for delisted and inactive symbols",,https://www.coinapi.io/products/market-data-api/faq,2026-10-01
+crypto-lake,Crypto Lake,Universe and integrity,delisted-retained,Delisted / expired instruments retained,Not verified,Not verified,,,2026-10-01
+coin-metrics,Coin Metrics,Universe and integrity,delisted-retained,Delisted / expired instruments retained,Yes,"Yes, retains books for Bittrex, CEX.IO, ErisX, FTX, Liquid",,https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/market-order-books,2026-10-01
+exchange-archives,Exchange archives,Universe and integrity,delisted-retained,Delisted / expired instruments retained,Partial,Not guaranteed,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,Universe and integrity,delisted-retained,Delisted / expired instruments retained,Not verified,Not verified,,,2026-10-01
+coindesk-data,CoinDesk Data,Universe and integrity,delisted-retained,Delisted / expired instruments retained,Yes,"Yes, retired and expired instruments kept for history",,https://developers.coindesk.com/documentation/data-api/spot_v1_markets_instruments,2026-10-01
+glassnode,glassnode,Universe and integrity,delisted-retained,Delisted / expired instruments retained,Not verified,Not verified,,,2026-10-01
+velo,Velo,Universe and integrity,delisted-retained,Delisted / expired instruments retained,Yes,"Yes, delisted futures and spot stay in the catalog with a last-available timestamp; options excluded",,https://docs.velo.xyz/sdks/python/api/catalog/get-futures,2026-10-01
+laevitas,Laevitas,Universe and integrity,delisted-retained,Delisted / expired instruments retained,Yes,"Yes, expired instruments can still be requested directly",,https://apiv2.laevitas.ch/migration/v1-to-v2/data-products,2026-10-01
+cryptoquant,CryptoQuant,Universe and integrity,delisted-retained,Delisted / expired instruments retained,Partial,"Partial, FTX history kept but no longer updated",,https://docs.cryptoquant.com/api-reference/btc-market-data/price-ohlcv,2026-10-01
+coingecko,CoinGecko,Universe and integrity,delisted-retained,Delisted / expired instruments retained,Partial,"Partial, delisted coins' history stays queryable on Analyst and above; covers coins, not venue instruments",,https://docs.coingecko.com/docs/querying-coin-data,2026-10-01
+coinglass,CoinGlass,Universe and integrity,delisted-retained,Delisted / expired instruments retained,Partial,"Partial, a delisted-pairs endpoint lists delisted and expired instruments; whether their history stays queryable is not stated",,https://docs.coinglass.com/reference/delisted-exchange-and-pair,2026-10-01
+coinalyze,Coinalyze,Universe and integrity,delisted-retained,Delisted / expired instruments retained,Not verified,Not verified,,,2026-10-01
+hyblock,Hyblock Capital,Universe and integrity,delisted-retained,Delisted / expired instruments retained,Not verified,Not verified,,,2026-10-01
+coinmarketcap,CoinMarketCap,Universe and integrity,delisted-retained,Delisted / expired instruments retained,Partial,"Partial, delisted coins stay in the ID map as inactive; asset-level, not venue instruments",,https://pro.coinmarketcap.com/api/documentation/pro-api-reference/cryptocurrency/cryptocurrency-id-map,2026-10-01
+tardis,Tardis.dev,Universe and integrity,earliest-data,Earliest data available,Documented,2019-03-30 for most venues; Binance USDS-M futures from 2019-11-17,,https://docs.tardis.dev/faq/billing-and-subscriptions https://docs.tardis.dev/historical-data-details/binance-futures,2026-07-28
+kaiko,Kaiko,Universe and integrity,earliest-data,Earliest data available,Documented,"2010 for tick trades and OHLCV; order book snapshots from 2015, varies per exchange",,https://docs.kaiko.com/explore-our-data/data-dictionary,2026-10-01
+aperiodic,Aperiodic.io,Universe and integrity,earliest-data,Earliest data available,Documented,"Raw trades and quotes: OKX perps from 2019-09, Binance futures from 2020-01, Hyperliquid perps from 2025-01; mark/index price, funding and open interest start up to 2 months later on each venue",,https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw,2026-10-05
+coinapi,CoinAPI,Universe and integrity,earliest-data,Earliest data available,Documented,2014-02-24 archive start; varies per symbol and data type,,https://www.coinapi.io/products/market-data-api/faq,2026-10-01
+crypto-lake,Crypto Lake,Universe and integrity,earliest-data,Earliest data available,Documented,Binance spot trades from 2017-08-17; Binance books from 2022-11-14 (partial from 2020-07-23); per-exchange table published,,https://crypto-lake.com/coverage/,2026-10-01
+coin-metrics,Coin Metrics,Universe and integrity,earliest-data,Earliest data available,Documented,July 2010 (BTC trades from Mt.Gox),,https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/market-trades https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/market-order-books,2026-10-01
+exchange-archives,Exchange archives,Universe and integrity,earliest-data,Earliest data available,Documented,Varies by venue; Binance spot klines from 2017,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,Universe and integrity,earliest-data,Earliest data available,Documented,Order books from 2011 on select exchanges,,https://docs.amberdata.io/docs/market/market-overview https://docs.amberdata.io/data-dictionary/market/order-books,2026-10-01
+coindesk-data,CoinDesk Data,Universe and integrity,earliest-data,Earliest data available,Vendor claim,Aggregated history from 2010 (vendor claim),,https://data.coindesk.com/trade-data https://data.coindesk.com/order-book,2026-10-01
+glassnode,glassnode,Universe and integrity,earliest-data,Earliest data available,Not verified,Not verified,,,2026-10-01
+velo,Velo,Universe and integrity,earliest-data,Earliest data available,Not verified,Not verified,,,2026-10-01
+laevitas,Laevitas,Universe and integrity,earliest-data,Earliest data available,Vendor claim,5+ years of history (vendor claim),,https://apiv2.laevitas.ch/migration/v1-to-v2/data-products,2026-10-01
+cryptoquant,CryptoQuant,Universe and integrity,earliest-data,Earliest data available,Documented,BTC index and on-chain from 2009-01-03; exchange spot from 2013-04-01 (Bitfinex); perps from 2015-09-25 (BitMEX),,https://docs.cryptoquant.com/api-reference/btc-market-data/price-ohlcv,2026-10-01
+coingecko,CoinGecko,Universe and integrity,earliest-data,Earliest data available,Documented,2013 for daily data (Analyst plan and above),,https://www.coingecko.com/en/api/pricing,2026-10-01
+coinglass,CoinGlass,Universe and integrity,earliest-data,Earliest data available,Not verified,Not verified,,,2026-10-01
+coinalyze,Coinalyze,Universe and integrity,earliest-data,Earliest data available,Not verified,Not verified,,,2026-10-01
+hyblock,Hyblock Capital,Universe and integrity,earliest-data,Earliest data available,Not verified,Not verified,,,2026-10-01
+coinmarketcap,CoinMarketCap,Universe and integrity,earliest-data,Earliest data available,Documented,Historical fiat conversions back to 2013-04-28,,https://coinmarketcap.com/api/documentation/pro-api-reference,2026-10-01
+tardis,Tardis.dev,Universe and integrity,history-by-plan,How much history you actually get,Documented,"Yearly billing: 4 years on Academic, Solo and Pro, everything since 2019-03-30 on Business. Quarterly: 12 months. Monthly: 4 months",,https://docs.tardis.dev/faq/billing-and-subscriptions,2026-10-01
+kaiko,Kaiko,Universe and integrity,history-by-plan,How much history you actually get,Documented,Negotiated,,https://www.kaiko.com/about-kaiko/pricing-and-contracts,2026-09-25
+aperiodic,Aperiodic.io,Universe and integrity,history-by-plan,How much history you actually get,Documented,4 years on Core and Pro; full history on Prime and above,,https://aperiodic.io/pricing https://aperiodic.io/llms.txt,2026-10-05
+coinapi,CoinAPI,Universe and integrity,history-by-plan,How much history you actually get,Documented,Metered by credits,,https://www.coinapi.io/products/market-data-api/pricing https://www.coinapi.io/products/market-data-api,2026-10-01
+crypto-lake,Crypto Lake,Universe and integrity,history-by-plan,How much history you actually get,No,No plan limit stated; capped by download volume,,https://crypto-lake.com/subscribe/,2026-10-01
+coin-metrics,Coin Metrics,Universe and integrity,history-by-plan,How much history you actually get,Documented,Limited on the community tier,,https://gitbook-docs.coinmetrics.io/packages/coin-metrics-community-data https://coinmetrics.io/product-announcements/updates-to-coin-metrics-community-data/,2026-07-28
+exchange-archives,Exchange archives,Universe and integrity,history-by-plan,How much history you actually get,Documented,Full published range,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,Universe and integrity,history-by-plan,How much history you actually get,Documented,Negotiated,,https://www.amberdata.io/pricing,2026-09-25
+coindesk-data,CoinDesk Data,Universe and integrity,history-by-plan,How much history you actually get,Documented,Per contract,,https://data.coindesk.com/blogs/changes-to-coindesk-data-indices-api-free-tier-access,2026-10-01
+glassnode,glassnode,Universe and integrity,history-by-plan,How much history you actually get,Documented,4 years on Advanced; up to 15+ years on Professional,,https://studio.glassnode.com/pricing,2026-10-01
+velo,Velo,Universe and integrity,history-by-plan,How much history you actually get,Documented,3 months on monthly billing; full history on yearly,,https://docs.velo.xyz/api,2026-10-01
+laevitas,Laevitas,Universe and integrity,history-by-plan,How much history you actually get,Documented,Free 1 week; Premium 1 year; API historical data on Enterprise,,https://laevitas.ch/pricing,2026-10-01
+cryptoquant,CryptoQuant,Universe and integrity,history-by-plan,How much history you actually get,Documented,Basic 30 days; Advanced and Professional 1 year; Premium full history,,https://cryptoquant.com/apis,2026-10-01
+coingecko,CoinGecko,Universe and integrity,history-by-plan,How much history you actually get,Documented,"Daily: Demo 1 year, Basic 2 years, Analyst+ from 2013; hourly from 2018 on Analyst+; 5-minute last day only below Enterprise",,https://www.coingecko.com/en/api/pricing,2026-10-01
+coinglass,CoinGlass,Universe and integrity,history-by-plan,How much history you actually get,Documented,Per plan; custom history on Enterprise,,https://www.coinglass.com/pricing,2026-10-01
+coinalyze,Coinalyze,Universe and integrity,history-by-plan,How much history you actually get,Documented,"Daily history kept; intraday rolls off after 1,500 to 2,000 points",,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,Universe and integrity,history-by-plan,How much history you actually get,Documented,"API: 3 months, or 3 years on annual billing",,https://hyblockcapital.com/pricing,2026-10-01
+coinmarketcap,CoinMarketCap,Universe and integrity,history-by-plan,How much history you actually get,Documented,"Daily quotes: Basic 1 year, Builder 3 years, Startup and above from 2010. Intraday quotes: 1 month up to Startup, 3 months on Growth, 12 months on Professional",,https://coinmarketcap.com/api/pricing,2026-10-01
+tardis,Tardis.dev,Universe and integrity,local-timestamp,Local / receive timestamp,Yes,"Yes, 100ns precision",,https://docs.tardis.dev/faq/data https://docs.tardis.dev/faq/general,2026-10-01
+kaiko,Kaiko,Universe and integrity,local-timestamp,Local / receive timestamp,Partial,"Partial, Kaiko stamps its own snapshot request time",,https://docs.kaiko.com/,2026-10-01
+aperiodic,Aperiodic.io,Universe and integrity,local-timestamp,Local / receive timestamp,Yes,"Yes, both for metrics and raw data",,https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw https://aperiodic.io/api-docs https://aperiodic.io/api.data.specification.json https://aperiodic.io/,2026-10-05
+coinapi,CoinAPI,Universe and integrity,local-timestamp,Local / receive timestamp,Yes,"Yes, time_coinapi (receive time) next to time_exchange",,https://www.coinapi.io/products/market-data-api/docs/rest-api/trades/trades/symbol_id/history/get,2026-10-01
+crypto-lake,Crypto Lake,Universe and integrity,local-timestamp,Local / receive timestamp,Yes,Yes,,https://crypto-lake.com/data/,2026-10-01
+coin-metrics,Coin Metrics,Universe and integrity,local-timestamp,Local / receive timestamp,Yes,"Yes, feed-handler clock on update rows",,https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/market-order-books,2026-10-01
+exchange-archives,Exchange archives,Universe and integrity,local-timestamp,Local / receive timestamp,No,"No, there is no collector",,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,Universe and integrity,local-timestamp,Local / receive timestamp,No,"No, trade and order book event schemas carry exchange timestamps only",,https://docs.amberdata.io/http/market/spot-trades,2026-10-01
+coindesk-data,CoinDesk Data,Universe and integrity,local-timestamp,Local / receive timestamp,Yes,"Yes, received timestamp with nanoseconds on every trade",,https://developers.coindesk.com/documentation/data-api/spot_v2_historical_trades,2026-10-01
+glassnode,glassnode,Universe and integrity,local-timestamp,Local / receive timestamp,Partial,"Partial, PIT metrics record when each datapoint was added",,https://docs.glassnode.com/data/point-in-time-metrics,2026-10-01
+velo,Velo,Universe and integrity,local-timestamp,Local / receive timestamp,n/a,"n/a, aggregated candles only (1-minute minimum)",,https://docs.velo.xyz/api/data,2026-10-01
+laevitas,Laevitas,Universe and integrity,local-timestamp,Local / receive timestamp,No,"No, responses carry no ingestion timestamp",,https://apiv2.laevitas.ch/migration/v1-to-v2/data-products,2026-10-01
+cryptoquant,CryptoQuant,Universe and integrity,local-timestamp,Local / receive timestamp,n/a,"n/a, aggregated metrics by block, minute, hour or day",,https://docs.cryptoquant.com/guides/time-convention,2026-10-01
+coingecko,CoinGecko,Universe and integrity,local-timestamp,Local / receive timestamp,n/a,"n/a, aggregated cross-venue prices; history carries only a sample time",,https://docs.coingecko.com/reference/coins-id-market-chart,2026-10-01
+coinglass,CoinGlass,Universe and integrity,local-timestamp,Local / receive timestamp,Not verified,Not verified,,,2026-10-01
+coinalyze,Coinalyze,Universe and integrity,local-timestamp,Local / receive timestamp,n/a,"n/a, aggregated bars carrying a single bar time",,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,Universe and integrity,local-timestamp,Local / receive timestamp,n/a,"n/a, aggregated interval series; no receive timestamp exposed",,https://docs.hyblockcapital.com/slippageresponse-11729134d0,2026-10-01
+coinmarketcap,CoinMarketCap,Universe and integrity,local-timestamp,Local / receive timestamp,n/a,"n/a, aggregated prices; no per-record receive timestamp",,https://coinmarketcap.com/api/documentation/guides/standards-and-conventions,2026-10-01
+tardis,Tardis.dev,Universe and integrity,local-time-aggregation,Aggregations computed on local-timestamp ordering,No,"No, you build them",,https://docs.tardis.dev/downloadable-csv-files,2026-10-01
+kaiko,Kaiko,Universe and integrity,local-time-aggregation,Aggregations computed on local-timestamp ordering,Not documented,Not documented; docs don't say which timestamp bars are built on,,https://docs.kaiko.com/rest-api/cefi-spot-market-data/tick-level-trades,2026-10-01
+aperiodic,Aperiodic.io,Universe and integrity,local-time-aggregation,Aggregations computed on local-timestamp ordering,Yes,"Yes, with timestamp=true",,https://aperiodic.io/api-docs https://aperiodic.io/api.data.specification.json https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw,2026-10-05
+coinapi,CoinAPI,Universe and integrity,local-time-aggregation,Aggregations computed on local-timestamp ordering,Yes,"Yes, OHLCV is built from reception timestamps",,https://www.coinapi.io/products/market-data-api/faq,2026-10-01
+crypto-lake,Crypto Lake,Universe and integrity,local-time-aggregation,Aggregations computed on local-timestamp ordering,No,"No, you build them",,https://crypto-lake.com/data/,2026-10-01
+coin-metrics,Coin Metrics,Universe and integrity,local-time-aggregation,Aggregations computed on local-timestamp ordering,Not documented,Not documented outright; candles are recalculated when late trades arrive,,https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/market-candles,2026-10-01
+exchange-archives,Exchange archives,Universe and integrity,local-time-aggregation,Aggregations computed on local-timestamp ordering,No,No,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,Universe and integrity,local-time-aggregation,Aggregations computed on local-timestamp ordering,Not documented,Not documented; docs don't say which timestamp bars are built on,,https://docs.amberdata.io/data-dictionary/market/ohlcv https://docs.amberdata.io/data-dictionary/market/trades,2026-10-01
+coindesk-data,CoinDesk Data,Universe and integrity,local-time-aggregation,Aggregations computed on local-timestamp ordering,Not documented,Not documented for bars; raw trades are ordered by receive time,,https://developers.coindesk.com/documentation/data-api/spot_v2_historical_trades,2026-10-01
+glassnode,glassnode,Universe and integrity,local-time-aggregation,Aggregations computed on local-timestamp ordering,Not documented,Not documented; docs don't say which timestamp metrics are built on,,https://docs.glassnode.com/data/data-finalization,2026-10-01
+velo,Velo,Universe and integrity,local-time-aggregation,Aggregations computed on local-timestamp ordering,Not documented,Not documented; docs don't say which timestamp candles are built on,,https://docs.velo.xyz/terms-of-service https://docs.velo.xyz/llms-full.txt,2026-10-01
+laevitas,Laevitas,Universe and integrity,local-time-aggregation,Aggregations computed on local-timestamp ordering,Not documented,"Not documented; bars are built from source events, ordering not stated",,https://apiv2.laevitas.ch/historical-data.html,2026-10-01
+cryptoquant,CryptoQuant,Universe and integrity,local-time-aggregation,Aggregations computed on local-timestamp ordering,Not documented,Not documented; docs don't say which timestamp metrics are built on,,https://docs.cryptoquant.com/guides/time-convention,2026-10-01
+coingecko,CoinGecko,Universe and integrity,local-time-aggregation,Aggregations computed on local-timestamp ordering,Not documented,"Not documented; prices are cross-venue VWAP, build ordering not stated",,https://www.coingecko.com/en/methodology,2026-10-01
+coinglass,CoinGlass,Universe and integrity,local-time-aggregation,Aggregations computed on local-timestamp ordering,Not documented,Not documented; docs don't say which timestamp bars are built on,,https://www.coinglass.com/terms https://docs.coinglass.com/reference/price-ohlc-history,2026-10-01
+coinalyze,Coinalyze,Universe and integrity,local-time-aggregation,Aggregations computed on local-timestamp ordering,Not documented,Not documented; docs don't say which timestamp bars are built on,,https://coinalyze.net/privacy-policy https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,Universe and integrity,local-time-aggregation,Aggregations computed on local-timestamp ordering,Not documented,Not documented; docs don't say which timestamp series are built on,,https://docs.hyblockcapital.com/llms.txt https://docs.hyblockcapital.com/bid-ask-ratio,2026-10-01
+coinmarketcap,CoinMarketCap,Universe and integrity,local-time-aggregation,Aggregations computed on local-timestamp ordering,Not documented,"Not documented; historical quotes are sampled snapshots, build ordering not stated",,https://coinmarketcap.com/methodology https://pro.coinmarketcap.com/api/documentation/pro-api-reference/cryptocurrency/quotes-historical,2026-10-01
+tardis,Tardis.dev,Universe and integrity,restatement,Data restated after publication,No,"No, raw archive",,https://docs.tardis.dev/faq/data https://docs.tardis.dev/faq/general,2026-10-01
+kaiko,Kaiko,Universe and integrity,restatement,Data restated after publication,Yes,"Yes, corrections to history ship as a new dataset version, not silently",,https://docs.kaiko.com/rest-api/general/getting-started/data-versioning,2026-10-01
+aperiodic,Aperiodic.io,Universe and integrity,restatement,Data restated after publication,No,"No, immutable",,https://aperiodic.io/,2026-10-05
+coinapi,CoinAPI,Universe and integrity,restatement,Data restated after publication,Not documented,Not documented for market data; a recalculation policy is published only for indexes,,https://www.coinapi.io/products/market-data-api/faq https://www.coinapi.io/products/indexes-api/docs/index-policies/recalculation-policy,2026-10-01
+crypto-lake,Crypto Lake,Universe and integrity,restatement,Data restated after publication,Not documented,Not documented; no revision policy published,,https://crypto-lake.com/data/ https://lake-api.readthedocs.io/,2026-10-01
+coin-metrics,Coin Metrics,Universe and integrity,restatement,Data restated after publication,Yes,"Yes, history can be recalculated; notices posted on the status page",,https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/market-candles,2026-10-01
+exchange-archives,Exchange archives,Universe and integrity,restatement,Data restated after publication,n/a,n/a,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,Universe and integrity,restatement,Data restated after publication,Not documented,Not documented; no revision policy published,,https://docs.amberdata.io/data-dictionary/market/ohlcv https://docs.amberdata.io/data-dictionary/market/trades,2026-10-01
+coindesk-data,CoinDesk Data,Universe and integrity,restatement,Data restated after publication,Yes,"Yes, backfilled trades are added later and erroneous trades re-flagged, not deleted",,https://developers.coindesk.com/documentation/data-api/spot_v2_historical_trades,2026-10-01
+glassnode,glassnode,Universe and integrity,restatement,Data restated after publication,Yes,"Yes, standard metrics can be revised; PIT variants are immutable",,https://docs.glassnode.com/data/point-in-time-metrics,2026-10-01
+velo,Velo,Universe and integrity,restatement,Data restated after publication,Not documented,Not documented; no revision policy published,,https://docs.velo.xyz/terms-of-service https://docs.velo.xyz/llms-full.txt,2026-10-01
+laevitas,Laevitas,Universe and integrity,restatement,Data restated after publication,Yes,"Yes, history is corrected; changes are published in a machine-readable correction feed",,https://apiv2.laevitas.ch/historical-data.html,2026-10-01
+cryptoquant,CryptoQuant,Universe and integrity,restatement,Data restated after publication,Yes,"Yes, served values can be revised; a 'mutable' flag per endpoint says which",,https://docs.cryptoquant.com/guides/data-latency,2026-10-01
+coingecko,CoinGecko,Universe and integrity,restatement,Data restated after publication,Not documented,Not documented; no revision policy published,,https://www.coingecko.com/en/methodology,2026-10-01
+coinglass,CoinGlass,Universe and integrity,restatement,Data restated after publication,Not documented,Not documented; no revision policy published,,https://www.coinglass.com/terms https://docs.coinglass.com/reference/price-ohlc-history,2026-10-01
+coinalyze,Coinalyze,Universe and integrity,restatement,Data restated after publication,Not documented,Not documented; no revision policy published,,https://coinalyze.net/privacy-policy https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,Universe and integrity,restatement,Data restated after publication,Not documented,"Not documented; no revision policy published, and liquidation levels are model estimates",,https://docs.hyblockcapital.com/llms.txt https://docs.hyblockcapital.com/bid-ask-ratio,2026-10-01
+coinmarketcap,CoinMarketCap,Universe and integrity,restatement,Data restated after publication,Not documented,Not documented; no revision policy for published history,,https://coinmarketcap.com/methodology https://pro.coinmarketcap.com/api/documentation/pro-api-reference/cryptocurrency/quotes-historical,2026-10-01
+tardis,Tardis.dev,What you get,tick-trades,Tick trades,Yes,Yes,,https://docs.tardis.dev/downloadable-csv-files/data-types.md,2026-09-29
+kaiko,Kaiko,What you get,tick-trades,Tick trades,Yes,Yes,,https://docs.kaiko.com/explore-our-data/data-dictionary https://docs.kaiko.com/rest-api/general/getting-started/api-output/taker_side_sell-explained https://docs.kaiko.com/rest-api/cefi-spot-market-data/tick-level-trades,2026-10-01
+aperiodic,Aperiodic.io,What you get,tick-trades,Tick trades,Yes,"Yes, on the Prime + Raw plan",,https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw https://aperiodic.io/pricing https://aperiodic.io/llms.txt,2026-10-05
+coinapi,CoinAPI,What you get,tick-trades,Tick trades,Yes,Yes,,https://www.coinapi.io/products/market-data-api/docs/rest-api/trades/trades/symbol_id/history/get,2026-10-01
+crypto-lake,Crypto Lake,What you get,tick-trades,Tick trades,Yes,"Yes, aggregated per taker order and price",,https://crypto-lake.com/data/,2026-10-01
+coin-metrics,Coin Metrics,What you get,tick-trades,Tick trades,Yes,Yes,,https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/market-trades https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/market-order-books,2026-10-01
+exchange-archives,Exchange archives,What you get,tick-trades,Tick trades,Yes,Yes,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,What you get,tick-trades,Tick trades,Yes,Yes,,https://docs.amberdata.io/http/market/spot-trades,2026-10-01
+coindesk-data,CoinDesk Data,What you get,tick-trades,Tick trades,Yes,Yes,,https://data.coindesk.com/trade-data https://data.coindesk.com/order-book,2026-10-01
+glassnode,glassnode,What you get,tick-trades,Tick trades,No,No,,https://docs.glassnode.com/basic-api/endpoints/market,2026-10-01
+velo,Velo,What you get,tick-trades,Tick trades,No,"No, 1-minute bars minimum",,https://docs.velo.xyz/api,2026-10-01
+laevitas,Laevitas,What you get,tick-trades,Tick trades,Yes,"Yes, live trades via WebSocket",,https://apiv2.laevitas.ch/websocket,2026-10-01
+cryptoquant,CryptoQuant,What you get,tick-trades,Tick trades,No,No,,https://docs.cryptoquant.com/catalog/catalog.json,2026-10-01
+coingecko,CoinGecko,What you get,tick-trades,Tick trades,No,No,,https://docs.coingecko.com/index.md,2026-10-01
+coinglass,CoinGlass,What you get,tick-trades,Tick trades,No,No,,https://docs.coinglass.com/llms.txt,2026-10-01
+coinalyze,Coinalyze,What you get,tick-trades,Tick trades,No,No,,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,What you get,tick-trades,Tick trades,No,No,,https://docs.hyblockcapital.com/llms.txt https://docs.hyblockcapital.com/bid-ask-ratio,2026-10-01
+coinmarketcap,CoinMarketCap,What you get,tick-trades,Tick trades,No,No,,https://coinmarketcap.com/api/documentation/v1,2026-10-01
+tardis,Tardis.dev,What you get,l2-updates,"L2 book, incremental updates",Yes,Yes,,https://docs.tardis.dev/downloadable-csv-files/data-types.md,2026-09-29
+kaiko,Kaiko,What you get,l2-updates,"L2 book, incremental updates",Yes,Yes,,https://docs.kaiko.com/explore-our-data/data-dictionary,2026-10-01
+aperiodic,Aperiodic.io,What you get,l2-updates,"L2 book, incremental updates",No,Coming soon,,https://aperiodic.io/pricing https://aperiodic.io/llms.txt https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw,2026-10-05
+coinapi,CoinAPI,What you get,l2-updates,"L2 book, incremental updates",Yes,Yes,,https://www.coinapi.io/blog/coinapi-vs-kaiko-crypto-market-data-comparison,2026-07-28
+crypto-lake,Crypto Lake,What you get,l2-updates,"L2 book, incremental updates",Yes,"Yes, unlimited levels via book_delta_v2",,https://crypto-lake.com/data/,2026-10-01
+coin-metrics,Coin Metrics,What you get,l2-updates,"L2 book, incremental updates",Partial,"Partial: historical updates only on supported exchanges, many markets from 2026-06-26",,https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/market-order-books,2026-10-01
+exchange-archives,Exchange archives,What you get,l2-updates,"L2 book, incremental updates",Partial,Varies by venue,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,What you get,l2-updates,"L2 book, incremental updates",Yes,"Yes, every price-level event",,https://docs.amberdata.io/docs/market/market-overview https://docs.amberdata.io/data-dictionary/market/order-books,2026-10-01
+coindesk-data,CoinDesk Data,What you get,l2-updates,"L2 book, incremental updates",Yes,"Yes, L2 updates",,https://data.coindesk.com/trade-data https://data.coindesk.com/order-book,2026-10-01
+glassnode,glassnode,What you get,l2-updates,"L2 book, incremental updates",No,No,,https://docs.glassnode.com/basic-api/endpoints/market,2026-10-01
+velo,Velo,What you get,l2-updates,"L2 book, incremental updates",No,No,,https://docs.velo.xyz/api/data,2026-10-01
+laevitas,Laevitas,What you get,l2-updates,"L2 book, incremental updates",No,"No, full L2 snapshots only, no deltas",,https://apiv2.laevitas.ch/websocket,2026-10-01
+cryptoquant,CryptoQuant,What you get,l2-updates,"L2 book, incremental updates",No,No,,https://docs.cryptoquant.com/catalog/catalog.json,2026-10-01
+coingecko,CoinGecko,What you get,l2-updates,"L2 book, incremental updates",No,No,,https://docs.coingecko.com/index.md,2026-10-01
+coinglass,CoinGlass,What you get,l2-updates,"L2 book, incremental updates",No,No,,https://docs.coinglass.com/llms.txt,2026-10-01
+coinalyze,Coinalyze,What you get,l2-updates,"L2 book, incremental updates",No,No,,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,What you get,l2-updates,"L2 book, incremental updates",No,"No, order book served only as depth-band series per interval",,https://docs.hyblockcapital.com/llms.txt https://docs.hyblockcapital.com/bid-ask-ratio,2026-10-01
+coinmarketcap,CoinMarketCap,What you get,l2-updates,"L2 book, incremental updates",No,No,,https://coinmarketcap.com/api/documentation/v1,2026-10-01
+tardis,Tardis.dev,What you get,l2-snapshots,"L2 book, snapshots",Yes,"Yes, top 25 and top 5",,https://docs.tardis.dev/downloadable-csv-files/data-types.md,2026-09-29
+kaiko,Kaiko,What you get,l2-snapshots,"L2 book, snapshots",Yes,"Yes, to 10% depth every 30s (Kaiko)",,https://docs.kaiko.com/,2026-10-01
+aperiodic,Aperiodic.io,What you get,l2-snapshots,"L2 book, snapshots",Partial,L2 imbalance / depth available as up to 15s aggregates,,https://aperiodic.io/pricing https://aperiodic.io/llms.txt https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw,2026-10-05
+coinapi,CoinAPI,What you get,l2-snapshots,"L2 book, snapshots",Yes,"Yes, snapshots and reconciled flat files",,https://www.coinapi.io/blog/how-deep-is-crypto-order-book-data,2026-07-28
+crypto-lake,Crypto Lake,What you get,l2-snapshots,"L2 book, snapshots",Yes,"Yes, 20 levels at 100ms",,https://crypto-lake.com/data/,2026-10-01
+coin-metrics,Coin Metrics,What you get,l2-snapshots,"L2 book, snapshots",Yes,"Yes: top 100 levels and within 10% of mid every 10s (major markets); full book hourly, capped at 30,000 levels",,https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/market-order-books,2026-10-01
+exchange-archives,Exchange archives,What you get,l2-snapshots,"L2 book, snapshots",Partial,Varies by venue,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,What you get,l2-snapshots,"L2 book, snapshots",Yes,"Yes, 1-minute snapshots via exchange REST",,https://docs.amberdata.io/docs/market/market-overview https://docs.amberdata.io/data-dictionary/market/order-books https://docs.amberdata.io/data-dictionary/market/ohlcv,2026-10-01
+coindesk-data,CoinDesk Data,What you get,l2-snapshots,"L2 book, snapshots",Yes,"Yes, one-minute snapshots at maximum depth",,https://data.coindesk.com/trade-data https://data.coindesk.com/order-book,2026-10-01
+glassnode,glassnode,What you get,l2-snapshots,"L2 book, snapshots",No,No,,https://docs.glassnode.com/basic-api/endpoints/market,2026-10-01
+velo,Velo,What you get,l2-snapshots,"L2 book, snapshots",Partial,"Partial, orderbook depth history for some futures products",,https://docs.velo.xyz/api/data,2026-10-01
+laevitas,Laevitas,What you get,l2-snapshots,"L2 book, snapshots",Yes,"Yes, historical snapshots for spot, perps and dated futures",,https://apiv2.laevitas.ch/api-json,2026-10-01
+cryptoquant,CryptoQuant,What you get,l2-snapshots,"L2 book, snapshots",No,No,,https://docs.cryptoquant.com/catalog/catalog.json,2026-10-01
+coingecko,CoinGecko,What you get,l2-snapshots,"L2 book, snapshots",No,No,,https://docs.coingecko.com/index.md,2026-10-01
+coinglass,CoinGlass,What you get,l2-snapshots,"L2 book, snapshots",Partial,"Partial, order book heatmap of price levels at 1m to 1d intervals (Standard and above); no raw snapshots",,https://docs.coinglass.com/reference/orderbook-heatmap,2026-10-01
+coinalyze,Coinalyze,What you get,l2-snapshots,"L2 book, snapshots",No,No,,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,What you get,l2-snapshots,"L2 book, snapshots",No,"No, only bid/ask totals within % depth bands per interval",,https://docs.hyblockcapital.com/combined-book,2026-10-01
+coinmarketcap,CoinMarketCap,What you get,l2-snapshots,"L2 book, snapshots",No,No,,https://coinmarketcap.com/api/documentation/v1,2026-10-01
+tardis,Tardis.dev,What you get,l3,L3 / market-by-order,Partial,"Where the exchange provides it, e.g. Coinbase",,https://docs.tardis.dev/faq/data https://docs.tardis.dev/faq/general,2026-10-01
+kaiko,Kaiko,What you get,l3,L3 / market-by-order,Not verified,Not verified,,,2026-10-01
+aperiodic,Aperiodic.io,What you get,l3,L3 / market-by-order,No,No,,https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw,2026-10-05
+coinapi,CoinAPI,What you get,l3,L3 / market-by-order,Yes,"Yes, order-event streams on supported venues",,https://www.coinapi.io/blog/coinapi-vs-kaiko-crypto-market-data-comparison,2026-07-28
+crypto-lake,Crypto Lake,What you get,l3,L3 / market-by-order,No,No,,https://crypto-lake.com/data/,2026-10-01
+coin-metrics,Coin Metrics,What you get,l3,L3 / market-by-order,No,"No, L3 is aggregated to L2 before storage",,https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/market-order-books,2026-10-01
+exchange-archives,Exchange archives,What you get,l3,L3 / market-by-order,No,No,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,What you get,l3,L3 / market-by-order,No,"No, L2 price-level events",,https://docs.amberdata.io/docs/market/market-overview https://docs.amberdata.io/data-dictionary/market/order-books,2026-10-01
+coindesk-data,CoinDesk Data,What you get,l3,L3 / market-by-order,No,"No, order book products are L1/L2 only",,https://data.coindesk.com/trade-data https://data.coindesk.com/order-book,2026-10-01
+glassnode,glassnode,What you get,l3,L3 / market-by-order,No,No,,https://docs.glassnode.com/basic-api/endpoints/market,2026-10-01
+velo,Velo,What you get,l3,L3 / market-by-order,No,No,,https://docs.velo.xyz/api/data,2026-10-01
+laevitas,Laevitas,What you get,l3,L3 / market-by-order,Partial,"Partial, Hyperliquid only: per-wallet resting orders from HyperCore L4 state",,https://apiv2.laevitas.ch/llms.txt,2026-10-01
+cryptoquant,CryptoQuant,What you get,l3,L3 / market-by-order,No,No,,https://docs.cryptoquant.com/catalog/catalog.json,2026-10-01
+coingecko,CoinGecko,What you get,l3,L3 / market-by-order,No,No,,https://docs.coingecko.com/index.md,2026-10-01
+coinglass,CoinGlass,What you get,l3,L3 / market-by-order,No,No,,https://docs.coinglass.com/llms.txt,2026-10-01
+coinalyze,Coinalyze,What you get,l3,L3 / market-by-order,No,No,,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,What you get,l3,L3 / market-by-order,No,No,,https://docs.hyblockcapital.com/llms.txt https://docs.hyblockcapital.com/bid-ask-ratio,2026-10-01
+coinmarketcap,CoinMarketCap,What you get,l3,L3 / market-by-order,No,No,,https://coinmarketcap.com/api/documentation/v1,2026-10-01
+tardis,Tardis.dev,What you get,options,Options,Yes,Yes,,https://docs.tardis.dev/downloadable-csv-files/data-types.md https://tardis.dev/ https://docs.tardis.dev/faq/billing-and-subscriptions,2026-09-29
+kaiko,Kaiko,What you get,options,Options,Yes,Yes,,https://docs.kaiko.com/explore-our-data/data-dictionary,2026-10-01
+aperiodic,Aperiodic.io,What you get,options,Options,No,No,,https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw,2026-10-05
+coinapi,CoinAPI,What you get,options,Options,Yes,"Yes, historical options (e.g. Deribit, Binance); expired contracts kept if collected while active",,https://www.coinapi.io/products/market-data-api/faq,2026-10-01
+crypto-lake,Crypto Lake,What you get,options,Options,No,No,,https://crypto-lake.com/data/,2026-10-01
+coin-metrics,Coin Metrics,What you get,options,Options,Yes,Yes,,https://coinmetrics.io/market-data-pro/,2026-07-28
+exchange-archives,Exchange archives,What you get,options,Options,Partial,Varies by venue,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,What you get,options,Options,Yes,"Yes, options analytics via GVOL",,https://www.amberdata.io/derivatives-analytics https://www.amberdata.io/deribit-market-data,2026-07-28
+coindesk-data,CoinDesk Data,What you get,options,Options,Not verified,Not verified,,,2026-10-01
+glassnode,glassnode,What you get,options,Options,Partial,"Partial, options metrics",,https://docs.glassnode.com/basic-api/endpoints/derivatives https://docs.glassnode.com/basic-api/endpoints/market,2026-10-01
+velo,Velo,What you get,options,Options,Partial,"Partial, IV, skew and term structure for BTC and ETH",,https://docs.velo.xyz/api/data,2026-10-01
+laevitas,Laevitas,What you get,options,Options,Yes,"Yes, option chains, trade flows incl. blocks, Greeks",,https://apiv2.laevitas.ch/llms.txt,2026-10-01
+cryptoquant,CryptoQuant,What you get,options,Options,No,"No, no options data in the API catalog",,https://docs.cryptoquant.com/catalog/catalog.json,2026-10-01
+coingecko,CoinGecko,What you get,options,Options,No,No,,https://docs.coingecko.com/index.md,2026-10-01
+coinglass,CoinGlass,What you get,options,Options,Partial,"Partial, options data from 4 venues",,https://www.coinglass.com/pricing,2026-10-01
+coinalyze,Coinalyze,What you get,options,Options,No,No,,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,What you get,options,Options,Partial,"Partial, implied-volatility indices only (Binance BVOL, Deribit DVOL) for BTC and ETH",,https://docs.hyblockcapital.com/options,2026-10-01
+coinmarketcap,CoinMarketCap,What you get,options,Options,No,No,,https://coinmarketcap.com/api/documentation/v1,2026-10-01
+tardis,Tardis.dev,What you get,bars,"Bars: OHLCV, VWAP / TWAP",No,"No, computed client-side by Tardis's own libraries",,https://docs.tardis.dev/faq/billing-and-subscriptions,2026-10-01
+kaiko,Kaiko,What you get,bars,"Bars: OHLCV, VWAP / TWAP",Yes,"Yes, OHLCV and VWAP",,https://docs.kaiko.com/explore-our-data/data-dictionary,2026-10-01
+aperiodic,Aperiodic.io,What you get,bars,"Bars: OHLCV, VWAP / TWAP",Yes,Yes,,https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw,2026-10-05
+coinapi,CoinAPI,What you get,bars,"Bars: OHLCV, VWAP / TWAP",Yes,"Yes, OHLCV plus Metrics API",,https://www.coinapi.io/products/market-data-api/docs/rest-api/ohlcv/ohlcv/periods/get https://www.coinapi.io/blog/coinapi-vs-kaiko-crypto-market-data-comparison,2026-07-28
+crypto-lake,Crypto Lake,What you get,bars,"Bars: OHLCV, VWAP / TWAP",Partial,1m candles,,https://crypto-lake.com/data/,2026-10-01
+coin-metrics,Coin Metrics,What you get,bars,"Bars: OHLCV, VWAP / TWAP",Yes,Yes,,https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/market-candles,2026-10-01
+exchange-archives,Exchange archives,What you get,bars,"Bars: OHLCV, VWAP / TWAP",Partial,Klines only,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,What you get,bars,"Bars: OHLCV, VWAP / TWAP",Yes,"Yes, liquidity-weighted average price",,https://www.amberdata.io/analytics,2026-07-28
+coindesk-data,CoinDesk Data,What you get,bars,"Bars: OHLCV, VWAP / TWAP",Yes,"Yes, OHLCV at minute, hour and day",,https://data.coindesk.com/derivatives https://developers.coindesk.com/documentation/data-api/spot_v1_historical_minutes,2026-10-01
+glassnode,glassnode,What you get,bars,"Bars: OHLCV, VWAP / TWAP",Partial,"Partial, price metrics",,https://docs.glassnode.com/basic-api/endpoints/market,2026-10-01
+velo,Velo,What you get,bars,"Bars: OHLCV, VWAP / TWAP",Yes,"Yes, OHLCV",,https://docs.velo.xyz/api/data,2026-10-01
+laevitas,Laevitas,What you get,bars,"Bars: OHLCV, VWAP / TWAP",Yes,"Yes, OHLCVT candles",,https://apiv2.laevitas.ch/llms.txt,2026-10-01
+cryptoquant,CryptoQuant,What you get,bars,"Bars: OHLCV, VWAP / TWAP",Yes,"Yes, price and OHLCV",,https://docs.cryptoquant.com/api-reference/btc-market-data/price-ohlcv,2026-10-01
+coingecko,CoinGecko,What you get,bars,"Bars: OHLCV, VWAP / TWAP",Partial,"Partial, aggregated OHLC and market charts",,https://docs.coingecko.com/reference/coins-id-market-chart,2026-10-01
+coinglass,CoinGlass,What you get,bars,"Bars: OHLCV, VWAP / TWAP",Yes,"Yes, OHLC price",,https://docs.coinglass.com/reference/price-ohlc-history,2026-10-01
+coinalyze,Coinalyze,What you get,bars,"Bars: OHLCV, VWAP / TWAP",Yes,"Yes, OHLCV",,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,What you get,bars,"Bars: OHLCV, VWAP / TWAP",Partial,"Partial, OHLC price candles without volume; buy/sell volume via separate endpoints",,https://docs.hyblockcapital.com/llms.txt https://docs.hyblockcapital.com/bid-ask-ratio,2026-10-01
+coinmarketcap,CoinMarketCap,What you get,bars,"Bars: OHLCV, VWAP / TWAP",Yes,"Yes, historical OHLCV",,https://pro.coinmarketcap.com/api/documentation/pro-api-reference/cryptocurrency/ohlcv-historical https://coinmarketcap.com/api/documentation/faq https://pro.coinmarketcap.com/api/documentation/pro-api-reference/cryptocurrency/quotes-historical https://pro.coinmarketcap.com/api/documentation/pro-api-reference/cryptocurrency/ohlcv-historical,2026-10-01
+tardis,Tardis.dev,What you get,order-flow,Order flow and flow toxicity,No,No,,https://docs.tardis.dev/downloadable-csv-files,2026-10-01
+kaiko,Kaiko,What you get,order-flow,Order flow and flow toxicity,Partial,"Partial, tick trades carry a taker-side flag; no taker volume, CVD or VPIN series",,https://docs.kaiko.com/rest-api/general/getting-started/api-output/taker_side_sell-explained,2026-10-01
+aperiodic,Aperiodic.io,What you get,order-flow,Order flow and flow toxicity,Yes,Yes,,https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw,2026-10-05
+coinapi,CoinAPI,What you get,order-flow,Order flow and flow toxicity,No,No,,https://www.coinapi.io/blog/coinapi-vs-kaiko-crypto-market-data-comparison,2026-07-28
+crypto-lake,Crypto Lake,What you get,order-flow,Order flow and flow toxicity,No,No,,https://crypto-lake.com/data/,2026-10-01
+coin-metrics,Coin Metrics,What you get,order-flow,Order flow and flow toxicity,Partial,"Partial, trades carry taker side; no taker volume, CVD or VPIN series",,https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/market-trades https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/market-order-books,2026-10-01
+exchange-archives,Exchange archives,What you get,order-flow,Order flow and flow toxicity,No,No,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,What you get,order-flow,Order flow and flow toxicity,Partial,"Partial, order book pressure",,https://www.amberdata.io/analytics,2026-07-28
+coindesk-data,CoinDesk Data,What you get,order-flow,Order flow and flow toxicity,Partial,"Partial, buy/sell volume and trade counts per bar; no CVD or VPIN",,https://developers.coindesk.com/documentation/data-api/spot_v1_historical_minutes,2026-10-01
+glassnode,glassnode,What you get,order-flow,Order flow and flow toxicity,Yes,"Yes, spot and futures taker volume, volume delta and CVD; no VPIN",,https://docs.glassnode.com/basic-api/endpoints/market,2026-10-01
+velo,Velo,What you get,order-flow,Order flow and flow toxicity,Yes,"Yes, buy/sell volume and trade counts per exchange; CVD; no VPIN",,https://docs.velo.xyz/sdks/python/guides/fetch-aggregated-spot-cvd https://docs.velo.xyz/features/chart/indicators,2026-10-01
+laevitas,Laevitas,What you get,order-flow,Order flow and flow toxicity,Yes,"Yes, buy/sell volume and trade counts per bar, trades with aggressor side; no CVD or VPIN",,https://apiv2.laevitas.ch/llms.txt,2026-10-01
+cryptoquant,CryptoQuant,What you get,order-flow,Order flow and flow toxicity,Not verified,Not verified,,,2026-10-01
+coingecko,CoinGecko,What you get,order-flow,Order flow and flow toxicity,No,No,,https://docs.coingecko.com/index.md,2026-10-01
+coinglass,CoinGlass,What you get,order-flow,Order flow and flow toxicity,Yes,"Yes, taker buy/sell volume, CVD and footprint; no VPIN",,https://docs.coinglass.com/reference/futures-cvd-history,2026-10-01
+coinalyze,Coinalyze,What you get,order-flow,Order flow and flow toxicity,Partial,"Partial, buy volume in OHLCV",,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,What you get,order-flow,Order flow and flow toxicity,Partial,"Partial, order book and order flow indicators",,https://docs.hyblockcapital.com/llms.txt https://docs.hyblockcapital.com/bid-ask-ratio,2026-10-01
+coinmarketcap,CoinMarketCap,What you get,order-flow,Order flow and flow toxicity,No,No,,https://coinmarketcap.com/api/documentation/v1,2026-10-01
+tardis,Tardis.dev,What you get,trade-size,Trade size distribution,No,No,,https://docs.tardis.dev/downloadable-csv-files,2026-10-01
+kaiko,Kaiko,What you get,trade-size,Trade size distribution,Not verified,Not verified,,,2026-10-01
+aperiodic,Aperiodic.io,What you get,trade-size,Trade size distribution,Yes,Yes,,https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw,2026-10-05
+coinapi,CoinAPI,What you get,trade-size,Trade size distribution,No,No,,https://www.coinapi.io/blog/coinapi-vs-kaiko-crypto-market-data-comparison,2026-07-28
+crypto-lake,Crypto Lake,What you get,trade-size,Trade size distribution,No,No,,https://crypto-lake.com/data/,2026-10-01
+coin-metrics,Coin Metrics,What you get,trade-size,Trade size distribution,Not verified,Not verified,,,2026-10-01
+exchange-archives,Exchange archives,What you get,trade-size,Trade size distribution,No,No,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,What you get,trade-size,Trade size distribution,Yes,"Yes, trade counts and volume by USD size bucket (0-1k to 100k+), spot only",,https://docs.amberdata.io/http/analytics/spot/trade-frequency,2026-10-01
+coindesk-data,CoinDesk Data,What you get,trade-size,Trade size distribution,Not verified,Not verified,,,2026-10-01
+glassnode,glassnode,What you get,trade-size,Trade size distribution,Not verified,Not verified,,,2026-10-01
+velo,Velo,What you get,trade-size,Trade size distribution,No,No,,https://docs.velo.xyz/api/data,2026-10-01
+laevitas,Laevitas,What you get,trade-size,Trade size distribution,Not verified,Not verified,,,2026-10-01
+cryptoquant,CryptoQuant,What you get,trade-size,Trade size distribution,No,"No, no trade-size metric in the API catalog",,https://docs.cryptoquant.com/catalog/catalog.json,2026-10-01
+coingecko,CoinGecko,What you get,trade-size,Trade size distribution,No,No,,https://docs.coingecko.com/index.md,2026-10-01
+coinglass,CoinGlass,What you get,trade-size,Trade size distribution,No,No,,https://docs.coinglass.com/llms.txt,2026-10-01
+coinalyze,Coinalyze,What you get,trade-size,Trade size distribution,No,No,,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,What you get,trade-size,Trade size distribution,Yes,"Yes, buy/sell volume and liquidations in 7 order-size buckets; average market and limit order size",,https://docs.hyblockcapital.com/buy-volume,2026-10-01
+coinmarketcap,CoinMarketCap,What you get,trade-size,Trade size distribution,No,No,,https://coinmarketcap.com/api/documentation/v1,2026-10-01
+tardis,Tardis.dev,What you get,market-impact,"Market impact: Amihud, Kyle lambda",No,No,,https://docs.tardis.dev/downloadable-csv-files,2026-10-01
+kaiko,Kaiko,What you get,market-impact,"Market impact: Amihud, Kyle lambda",Not verified,Not verified,,,2026-10-01
+aperiodic,Aperiodic.io,What you get,market-impact,"Market impact: Amihud, Kyle lambda",Yes,"Yes, Amihud-like illiquidity and Kyle-like lambda",,https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw,2026-10-05
+coinapi,CoinAPI,What you get,market-impact,"Market impact: Amihud, Kyle lambda",No,No,,https://www.coinapi.io/blog/coinapi-vs-kaiko-crypto-market-data-comparison,2026-07-28
+crypto-lake,Crypto Lake,What you get,market-impact,"Market impact: Amihud, Kyle lambda",No,No,,https://crypto-lake.com/data/,2026-10-01
+coin-metrics,Coin Metrics,What you get,market-impact,"Market impact: Amihud, Kyle lambda",Not verified,Not verified,,,2026-10-01
+exchange-archives,Exchange archives,What you get,market-impact,"Market impact: Amihud, Kyle lambda",No,No,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,What you get,market-impact,"Market impact: Amihud, Kyle lambda",Partial,"Partial, price impact metrics",,https://www.amberdata.io/analytics,2026-07-28
+coindesk-data,CoinDesk Data,What you get,market-impact,"Market impact: Amihud, Kyle lambda",Partial,"Partial, slippage for chosen order sizes from minute L2 snapshots; no Amihud or Kyle lambda",,https://developers.coindesk.com/documentation/data-api/spot_v1_historical_orderbook_l2_metrics_minute,2026-10-01
+glassnode,glassnode,What you get,market-impact,"Market impact: Amihud, Kyle lambda",Partial,"Partial, order book price impact for a set notional (Binance, Coinbase); no Amihud or Kyle lambda",,https://docs.glassnode.com/basic-api/endpoints/market,2026-10-01
+velo,Velo,What you get,market-impact,"Market impact: Amihud, Kyle lambda",No,No,,https://docs.velo.xyz/api/data,2026-10-01
+laevitas,Laevitas,What you get,market-impact,"Market impact: Amihud, Kyle lambda",Not verified,Not verified,,,2026-10-01
+cryptoquant,CryptoQuant,What you get,market-impact,"Market impact: Amihud, Kyle lambda",No,"No, not in the API catalog",,https://docs.cryptoquant.com/catalog/catalog.json,2026-10-01
+coingecko,CoinGecko,What you get,market-impact,"Market impact: Amihud, Kyle lambda",No,No,,https://docs.coingecko.com/index.md,2026-10-01
+coinglass,CoinGlass,What you get,market-impact,"Market impact: Amihud, Kyle lambda",No,No,,https://docs.coinglass.com/llms.txt,2026-10-01
+coinalyze,Coinalyze,What you get,market-impact,"Market impact: Amihud, Kyle lambda",No,No,,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,What you get,market-impact,"Market impact: Amihud, Kyle lambda",No,"No, nearest is a slippage series",,https://docs.hyblockcapital.com/llms.txt https://docs.hyblockcapital.com/bid-ask-ratio,2026-10-01
+coinmarketcap,CoinMarketCap,What you get,market-impact,"Market impact: Amihud, Kyle lambda",No,No,,https://coinmarketcap.com/api/documentation/v1,2026-10-01
+tardis,Tardis.dev,What you get,slippage,Execution slippage,No,No,,https://docs.tardis.dev/downloadable-csv-files,2026-10-01
+kaiko,Kaiko,What you get,slippage,Execution slippage,Yes,Yes,,https://docs.kaiko.com/,2026-10-01
+aperiodic,Aperiodic.io,What you get,slippage,Execution slippage,Yes,Yes,,https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw,2026-10-05
+coinapi,CoinAPI,What you get,slippage,Execution slippage,No,No,,https://www.coinapi.io/blog/coinapi-vs-kaiko-crypto-market-data-comparison,2026-07-28
+crypto-lake,Crypto Lake,What you get,slippage,Execution slippage,No,No,,https://crypto-lake.com/data/,2026-10-01
+coin-metrics,Coin Metrics,What you get,slippage,Execution slippage,Yes,"Yes, e.g. slippage on a $100k order",,https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/liquidity https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/liquidity/slippage,2026-07-28
+exchange-archives,Exchange archives,What you get,slippage,Execution slippage,No,No,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,What you get,slippage,Execution slippage,Yes,Yes,,https://www.amberdata.io/analytics,2026-07-28
+coindesk-data,CoinDesk Data,What you get,slippage,Execution slippage,Yes,"Yes, order book slippage metric",,https://developers.coindesk.com/documentation/data-api/spot_v1_historical_orderbook_l2_metrics_minute,2026-10-01
+glassnode,glassnode,What you get,slippage,Execution slippage,Partial,"Partial, estimated market-order cost from the order book",,https://docs.glassnode.com/basic-api/endpoints/market,2026-10-01
+velo,Velo,What you get,slippage,Execution slippage,No,No,,https://docs.velo.xyz/api/data,2026-10-01
+laevitas,Laevitas,What you get,slippage,Execution slippage,Not verified,Not verified,,,2026-10-01
+cryptoquant,CryptoQuant,What you get,slippage,Execution slippage,No,"No, not in the API catalog",,https://docs.cryptoquant.com/catalog/catalog.json,2026-10-01
+coingecko,CoinGecko,What you get,slippage,Execution slippage,No,No,,https://docs.coingecko.com/index.md,2026-10-01
+coinglass,CoinGlass,What you get,slippage,Execution slippage,No,No,,https://docs.coinglass.com/llms.txt,2026-10-01
+coinalyze,Coinalyze,What you get,slippage,Execution slippage,No,No,,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,What you get,slippage,Execution slippage,Yes,"Yes, slippage series per interval",,https://docs.hyblockcapital.com/slippage,2026-10-01
+coinmarketcap,CoinMarketCap,What you get,slippage,Execution slippage,No,No,,https://coinmarketcap.com/api/documentation/v1,2026-10-01
+tardis,Tardis.dev,What you get,realized-vol,Realized volatility and jump structure,No,No,,https://docs.tardis.dev/downloadable-csv-files,2026-10-01
+kaiko,Kaiko,What you get,realized-vol,Realized volatility and jump structure,Yes,"Yes, realized and implied vol",,https://docs.kaiko.com/,2026-07-28
+aperiodic,Aperiodic.io,What you get,realized-vol,Realized volatility and jump structure,Yes,"Yes, incl. bipower variation and jump ratio",,https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw,2026-10-05
+coinapi,CoinAPI,What you get,realized-vol,Realized volatility and jump structure,No,No,,https://www.coinapi.io/blog/coinapi-vs-kaiko-crypto-market-data-comparison,2026-07-28
+crypto-lake,Crypto Lake,What you get,realized-vol,Realized volatility and jump structure,No,No,,https://crypto-lake.com/data/,2026-10-01
+coin-metrics,Coin Metrics,What you get,realized-vol,Realized volatility and jump structure,Yes,"Yes, realized and implied vol",,https://coinmetrics.io/market-data-pro/,2026-07-28
+exchange-archives,Exchange archives,What you get,realized-vol,Realized volatility and jump structure,No,No,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,What you get,realized-vol,Realized volatility and jump structure,Yes,"Yes, realized and implied vol, surfaces, skew, term structure",,https://www.amberdata.io/derivatives-analytics https://www.amberdata.io/deribit-market-data,2026-07-28
+coindesk-data,CoinDesk Data,What you get,realized-vol,Realized volatility and jump structure,Not verified,Not verified,,,2026-10-01
+glassnode,glassnode,What you get,realized-vol,Realized volatility and jump structure,Partial,"Partial, realized volatility from daily returns over rolling windows; no jump metrics",,https://docs.glassnode.com/basic-api/endpoints/market,2026-10-01
+velo,Velo,What you get,realized-vol,Realized volatility and jump structure,Partial,"Partial, implied vol from options",,https://docs.velo.xyz/api/data,2026-10-01
+laevitas,Laevitas,What you get,realized-vol,Realized volatility and jump structure,Partial,"Partial, implied vol and Greeks",,https://apiv2.laevitas.ch/llms.txt,2026-10-01
+cryptoquant,CryptoQuant,What you get,realized-vol,Realized volatility and jump structure,No,"No, no realized volatility metric in the API catalog",,https://docs.cryptoquant.com/catalog/catalog.json,2026-10-01
+coingecko,CoinGecko,What you get,realized-vol,Realized volatility and jump structure,No,No,,https://docs.coingecko.com/index.md,2026-10-01
+coinglass,CoinGlass,What you get,realized-vol,Realized volatility and jump structure,Partial,"Partial, ATR, Bollinger Bands and price amplitude; no realized volatility series",,https://docs.coinglass.com/llms.txt,2026-10-01
+coinalyze,Coinalyze,What you get,realized-vol,Realized volatility and jump structure,No,No,,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,What you get,realized-vol,Realized volatility and jump structure,No,"No, implied vol indices only (BVOL, DVOL)",,https://docs.hyblockcapital.com/llms.txt https://docs.hyblockcapital.com/bid-ask-ratio,2026-10-01
+coinmarketcap,CoinMarketCap,What you get,realized-vol,Realized volatility and jump structure,No,No,,https://coinmarketcap.com/api/documentation/v1,2026-10-01
+tardis,Tardis.dev,What you get,tick-run-structure,Tick and run structure,No,No,,https://docs.tardis.dev/downloadable-csv-files,2026-10-01
+kaiko,Kaiko,What you get,tick-run-structure,Tick and run structure,Not verified,Not verified,,,2026-10-01
+aperiodic,Aperiodic.io,What you get,tick-run-structure,Tick and run structure,Yes,Yes,,https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw,2026-10-05
+coinapi,CoinAPI,What you get,tick-run-structure,Tick and run structure,No,No,,https://www.coinapi.io/blog/coinapi-vs-kaiko-crypto-market-data-comparison,2026-07-28
+crypto-lake,Crypto Lake,What you get,tick-run-structure,Tick and run structure,No,No,,https://crypto-lake.com/data/,2026-10-01
+coin-metrics,Coin Metrics,What you get,tick-run-structure,Tick and run structure,Not verified,Not verified,,,2026-10-01
+exchange-archives,Exchange archives,What you get,tick-run-structure,Tick and run structure,No,No,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,What you get,tick-run-structure,Tick and run structure,Not verified,Not verified,,,2026-10-01
+coindesk-data,CoinDesk Data,What you get,tick-run-structure,Tick and run structure,Not verified,Not verified,,,2026-10-01
+glassnode,glassnode,What you get,tick-run-structure,Tick and run structure,No,No,,https://docs.glassnode.com/basic-api/endpoints/market,2026-10-01
+velo,Velo,What you get,tick-run-structure,Tick and run structure,No,No,,https://docs.velo.xyz/api/data,2026-10-01
+laevitas,Laevitas,What you get,tick-run-structure,Tick and run structure,Not verified,Not verified,,,2026-10-01
+cryptoquant,CryptoQuant,What you get,tick-run-structure,Tick and run structure,No,No,,https://docs.cryptoquant.com/catalog/catalog.json,2026-10-01
+coingecko,CoinGecko,What you get,tick-run-structure,Tick and run structure,No,No,,https://docs.coingecko.com/index.md,2026-10-01
+coinglass,CoinGlass,What you get,tick-run-structure,Tick and run structure,No,No,,https://docs.coinglass.com/llms.txt,2026-10-01
+coinalyze,Coinalyze,What you get,tick-run-structure,Tick and run structure,No,No,,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,What you get,tick-run-structure,Tick and run structure,Not verified,Not verified,,,2026-10-01
+coinmarketcap,CoinMarketCap,What you get,tick-run-structure,Tick and run structure,No,No,,https://coinmarketcap.com/api/documentation/v1,2026-10-01
+tardis,Tardis.dev,What you get,l1-spread-depth,"L1 spread, depth, imbalance",No,No,,https://docs.tardis.dev/downloadable-csv-files,2026-10-01
+kaiko,Kaiko,What you get,l1-spread-depth,"L1 spread, depth, imbalance",Yes,"Yes, bid-ask spread and market depth (L2 aggregations)",,https://docs.kaiko.com/ https://docs.kaiko.com/,2026-10-01
+aperiodic,Aperiodic.io,What you get,l1-spread-depth,"L1 spread, depth, imbalance",Yes,Yes,,https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw,2026-10-05
+coinapi,CoinAPI,What you get,l1-spread-depth,"L1 spread, depth, imbalance",Yes,"Yes, depth and spread via Metrics API",,https://www.coinapi.io/blog/coinapi-vs-kaiko-crypto-market-data-comparison,2026-07-28
+crypto-lake,Crypto Lake,What you get,l1-spread-depth,"L1 spread, depth, imbalance",No,No,,https://crypto-lake.com/data/,2026-10-01
+coin-metrics,Coin Metrics,What you get,l1-spread-depth,"L1 spread, depth, imbalance",Yes,"Yes, spread and depth",,https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/liquidity,2026-07-28
+exchange-archives,Exchange archives,What you get,l1-spread-depth,"L1 spread, depth, imbalance",No,No,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,What you get,l1-spread-depth,"L1 spread, depth, imbalance",Yes,"Yes, spread, depth and pressure",,https://www.amberdata.io/analytics,2026-07-28
+coindesk-data,CoinDesk Data,What you get,l1-spread-depth,"L1 spread, depth, imbalance",Yes,"Yes, spread and depth metrics",,https://developers.coindesk.com/documentation/data-api/spot_v1_historical_orderbook_l2_metrics_minute,2026-10-01
+glassnode,glassnode,What you get,l1-spread-depth,"L1 spread, depth, imbalance",Yes,"Yes, time-weighted spread, depth and imbalance (Binance and Coinbase spot, Binance perps)",,https://docs.glassnode.com/basic-api/endpoints/market,2026-10-01
+velo,Velo,What you get,l1-spread-depth,"L1 spread, depth, imbalance",No,No,,https://docs.velo.xyz/api/data,2026-10-01
+laevitas,Laevitas,What you get,l1-spread-depth,"L1 spread, depth, imbalance",Yes,"Yes, bid/ask price, size and spread per minute; order book imbalance and microprice",,https://apiv2.laevitas.ch/api-json,2026-10-01
+cryptoquant,CryptoQuant,What you get,l1-spread-depth,"L1 spread, depth, imbalance",No,"No, no spread, depth or order book data in the API catalog",,https://docs.cryptoquant.com/catalog/catalog.json,2026-10-01
+coingecko,CoinGecko,What you get,l1-spread-depth,"L1 spread, depth, imbalance",No,No,,https://docs.coingecko.com/index.md,2026-10-01
+coinglass,CoinGlass,What you get,l1-spread-depth,"L1 spread, depth, imbalance",Partial,"Partial, bid/ask totals within a price range; no spread series",,https://docs.coinglass.com/reference/futures-orderbook-history,2026-10-01
+coinalyze,Coinalyze,What you get,l1-spread-depth,"L1 spread, depth, imbalance",No,No,,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,What you get,l1-spread-depth,"L1 spread, depth, imbalance",Yes,"Yes, bid-ask spread, size at best bid/ask and bid/ask ratio per interval",,https://docs.hyblockcapital.com/bids-ask-spread,2026-10-01
+coinmarketcap,CoinMarketCap,What you get,l1-spread-depth,"L1 spread, depth, imbalance",No,No,,https://coinmarketcap.com/api/documentation/v1,2026-10-01
+tardis,Tardis.dev,What you get,l2-depth-levels,L2 depth and imbalance by level,No,No,,https://docs.tardis.dev/downloadable-csv-files,2026-10-01
+kaiko,Kaiko,What you get,l2-depth-levels,L2 depth and imbalance by level,Partial,"Partial, depth to 10% of book",,https://docs.kaiko.com/,2026-10-01
+aperiodic,Aperiodic.io,What you get,l2-depth-levels,L2 depth and imbalance by level,Yes,"Yes, at 5 / 10 / 20 / 25 levels",,https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw,2026-10-05
+coinapi,CoinAPI,What you get,l2-depth-levels,L2 depth and imbalance by level,Partial,"Partial, raw L2 snapshots and updates by level; no precomputed depth-band or imbalance series",,https://www.coinapi.io/products/market-data-api/faq,2026-10-01
+crypto-lake,Crypto Lake,What you get,l2-depth-levels,L2 depth and imbalance by level,No,No,,https://crypto-lake.com/data/,2026-10-01
+coin-metrics,Coin Metrics,What you get,l2-depth-levels,L2 depth and imbalance by level,Partial,"Partial, order book depth metric",,https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/liquidity,2026-07-28
+exchange-archives,Exchange archives,What you get,l2-depth-levels,L2 depth and imbalance by level,No,No,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,What you get,l2-depth-levels,L2 depth and imbalance by level,Partial,"Partial, order book depth",,https://www.amberdata.io/analytics,2026-07-28
+coindesk-data,CoinDesk Data,What you get,l2-depth-levels,L2 depth and imbalance by level,Partial,"Partial, depth metrics",,https://developers.coindesk.com/documentation/data-api/spot_v1_historical_orderbook_l2_metrics_minute,2026-10-01
+glassnode,glassnode,What you get,l2-depth-levels,L2 depth and imbalance by level,Partial,"Partial, depth and imbalance within a chosen bps band, not per level",,https://docs.glassnode.com/basic-api/endpoints/market,2026-10-01
+velo,Velo,What you get,l2-depth-levels,L2 depth and imbalance by level,Partial,"Partial, orderbook depth snapshots",,https://docs.velo.xyz/api/data,2026-10-01
+laevitas,Laevitas,What you get,l2-depth-levels,L2 depth and imbalance by level,Yes,"Yes, liquidity and imbalance at 10, 20, 50 and 100 levels; raw snapshots up to 100 levels, kept 30 days",,https://apiv2.laevitas.ch/api-json,2026-10-01
+cryptoquant,CryptoQuant,What you get,l2-depth-levels,L2 depth and imbalance by level,No,"No, no order book data in the API catalog",,https://docs.cryptoquant.com/catalog/catalog.json,2026-10-01
+coingecko,CoinGecko,What you get,l2-depth-levels,L2 depth and imbalance by level,No,No,,https://docs.coingecko.com/index.md,2026-10-01
+coinglass,CoinGlass,What you get,l2-depth-levels,L2 depth and imbalance by level,Yes,"Yes, bid/ask totals at depth bands from 0.25% to 10%",,https://docs.coinglass.com/reference/futures-orderbook-history,2026-10-01
+coinalyze,Coinalyze,What you get,l2-depth-levels,L2 depth and imbalance by level,No,No,,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,What you get,l2-depth-levels,L2 depth and imbalance by level,Partial,"Partial, depth and imbalance by % band from mid (1 to 20%, full book), not per level",,https://docs.hyblockcapital.com/bid-ask-ratio,2026-10-01
+coinmarketcap,CoinMarketCap,What you get,l2-depth-levels,L2 depth and imbalance by level,No,No,,https://coinmarketcap.com/api/documentation/v1,2026-10-01
+tardis,Tardis.dev,What you get,derivatives,"Derivatives: funding, OI, basis, mark vs index",Partial,Raw ticker only,,https://docs.tardis.dev/downloadable-csv-files/data-types.md,2026-09-29
+kaiko,Kaiko,What you get,derivatives,"Derivatives: funding, OI, basis, mark vs index",Yes,Yes,,https://docs.kaiko.com/explore-our-data/data-dictionary,2026-10-01
+aperiodic,Aperiodic.io,What you get,derivatives,"Derivatives: funding, OI, basis, mark vs index",Yes,Yes,,https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw,2026-10-05
+coinapi,CoinAPI,What you get,derivatives,"Derivatives: funding, OI, basis, mark vs index",Not verified,Not verified,,,2026-10-01
+crypto-lake,Crypto Lake,What you get,derivatives,"Derivatives: funding, OI, basis, mark vs index",Partial,"Partial: funding with mark and index price, OI and liquidations on futures",,https://crypto-lake.com/data/,2026-10-01
+coin-metrics,Coin Metrics,What you get,derivatives,"Derivatives: funding, OI, basis, mark vs index",Yes,Yes,,https://coinmetrics.io/market-data-pro/,2026-07-28
+exchange-archives,Exchange archives,What you get,derivatives,"Derivatives: funding, OI, basis, mark vs index",Partial,Partial,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,What you get,derivatives,"Derivatives: funding, OI, basis, mark vs index",Yes,"Yes, incl. OI and gamma",,https://www.amberdata.io/derivatives-analytics https://www.amberdata.io/deribit-market-data,2026-07-28
+coindesk-data,CoinDesk Data,What you get,derivatives,"Derivatives: funding, OI, basis, mark vs index",Yes,"Yes, funding, OI and index per futures instrument",,https://data.coindesk.com/derivatives,2026-10-01
+glassnode,glassnode,What you get,derivatives,"Derivatives: funding, OI, basis, mark vs index",Yes,"Yes, futures, funding, OI, liquidations",,https://docs.glassnode.com/basic-api/endpoints/derivatives https://docs.glassnode.com/basic-api/endpoints/market,2026-10-01
+velo,Velo,What you get,derivatives,"Derivatives: funding, OI, basis, mark vs index",Yes,"Yes, funding (per 8h), OI, basis",,https://docs.velo.xyz/api/data,2026-10-01
+laevitas,Laevitas,What you get,derivatives,"Derivatives: funding, OI, basis, mark vs index",Yes,"Yes, funding, OI, basis, liquidations, term structure",,https://apiv2.laevitas.ch/llms.txt,2026-10-01
+cryptoquant,CryptoQuant,What you get,derivatives,"Derivatives: funding, OI, basis, mark vs index",Yes,"Yes, funding, OI, liquidations",,https://docs.cryptoquant.com/catalog/catalog.json https://docs.cryptoquant.com/api-reference/btc-market-data/liquidations,2026-10-01
+coingecko,CoinGecko,What you get,derivatives,"Derivatives: funding, OI, basis, mark vs index",Partial,"Partial, current funding rate, OI, basis and index per derivatives ticker; no derivatives history endpoint",,https://docs.coingecko.com/reference/derivatives-tickers,2026-10-01
+coinglass,CoinGlass,What you get,derivatives,"Derivatives: funding, OI, basis, mark vs index",Yes,"Yes, OI, funding, liquidations, long/short",,https://docs.coinglass.com/llms.txt,2026-10-01
+coinalyze,Coinalyze,What you get,derivatives,"Derivatives: funding, OI, basis, mark vs index",Yes,"Yes, OI, funding, predicted funding, liquidations, long/short",,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,What you get,derivatives,"Derivatives: funding, OI, basis, mark vs index",Yes,"Yes, liquidation levels and heatmaps, OI, leverage",,https://docs.hyblockcapital.com/llms.txt https://docs.hyblockcapital.com/bid-ask-ratio,2026-10-01
+coinmarketcap,CoinMarketCap,What you get,derivatives,"Derivatives: funding, OI, basis, mark vs index",Partial,"Partial, latest funding rate, OI, index price and basis per derivative pair; no history, no mark price",,https://pro.coinmarketcap.com/api/documentation/pro-api-reference/derivatives/derivative-market-pairs-by-exchange,2026-10-01
+tardis,Tardis.dev,What you get,intervals,Aggregation intervals offered,n/a,"n/a, raw",,https://docs.tardis.dev/downloadable-csv-files,2026-10-01
+kaiko,Kaiko,What you get,intervals,Aggregation intervals offered,Documented,Any interval from 1 second to 1 day (Kaiko L2 aggregations),,https://docs.kaiko.com/,2026-10-01
+aperiodic,Aperiodic.io,What you get,intervals,Aggregation intervals offered,Documented,1m to 1d on self-serve plans (seven intervals); 15s and 30s on Institutional only,,https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw,2026-10-05
+coinapi,CoinAPI,What you get,intervals,Aggregation intervals offered,Documented,OHLCV from 1 second to 5 years,,https://www.coinapi.io/products/market-data-api/docs/rest-api/ohlcv/ohlcv/periods/get,2026-10-01
+crypto-lake,Crypto Lake,What you get,intervals,Aggregation intervals offered,Documented,1m candles,,https://crypto-lake.com/data/,2026-10-01
+coin-metrics,Coin Metrics,What you get,intervals,Aggregation intervals offered,Documented,"1m, 5m, 1h, 1d",,https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/liquidity/slippage,2026-07-28
+exchange-archives,Exchange archives,What you get,intervals,Aggregation intervals offered,Documented,Venue kline set,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,What you get,intervals,Aggregation intervals offered,Documented,"OHLCV at 1 minute, 1 hour, 1 day; order book snapshots every minute",,https://docs.amberdata.io/data-dictionary/market/ohlcv,2026-10-01
+coindesk-data,CoinDesk Data,What you get,intervals,Aggregation intervals offered,Documented,"Minute, hour, day",,https://data.coindesk.com/derivatives,2026-10-01
+glassnode,glassnode,What you get,intervals,Aggregation intervals offered,Documented,"10m, 1h, 24h, 1w, 1month; 10m on Professional only",,https://docs.glassnode.com/data/timestamps-and-resolutions,2026-10-01
+velo,Velo,What you get,intervals,Aggregation intervals offered,Documented,1 minute and up,,https://docs.velo.xyz/api,2026-10-01
+laevitas,Laevitas,What you get,intervals,Aggregation intervals offered,Documented,1m to 1M for candles; order book metrics 1m to 1d,,https://apiv2.laevitas.ch/llms.txt,2026-10-01
+cryptoquant,CryptoQuant,What you get,intervals,Aggregation intervals offered,Documented,Basic daily; Advanced hourly; Professional and Premium minute,,https://cryptoquant.com/apis,2026-10-01
+coingecko,CoinGecko,What you get,intervals,Aggregation intervals offered,Documented,Daily and hourly; 5-minute and 1-minute on Enterprise only,,https://docs.coingecko.com/reference/coins-id-market-chart,2026-10-01
+coinglass,CoinGlass,What you get,intervals,Aggregation intervals offered,Documented,"1m to 1w; Hobbyist 4h and above, Startup 30m and above",,https://docs.coinglass.com/reference/price-ohlc-history,2026-10-01
+coinalyze,Coinalyze,What you get,intervals,Aggregation intervals offered,Documented,"1 minute to 12 hours, daily",,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,What you get,intervals,Aggregation intervals offered,Documented,"1m, 5m, 15m, 1h, 4h, 1d",,https://docs.hyblockcapital.com/slippage,2026-10-01
+coinmarketcap,CoinMarketCap,What you get,intervals,Aggregation intervals offered,Documented,Quotes 5m to 365d; OHLCV hourly or daily,,https://pro.coinmarketcap.com/api/documentation/pro-api-reference/cryptocurrency/quotes-historical https://pro.coinmarketcap.com/api/documentation/pro-api-reference/cryptocurrency/ohlcv-historical,2026-10-01
+tardis,Tardis.dev,What you get,catalogue-breadth,Breadth of derived catalogue,n/a,n/a,,https://docs.tardis.dev/downloadable-csv-files,2026-10-01
+kaiko,Kaiko,What you get,catalogue-breadth,Breadth of derived catalogue,Documented,"Broad: L2 aggregations, indices, vol surfaces",,https://docs.kaiko.com/ https://docs.kaiko.com/,2026-07-28
+aperiodic,Aperiodic.io,What you get,catalogue-breadth,Breadth of derived catalogue,Documented,"19 datasets, 5 categories, 220 metrics; plus 6 raw datasets on Prime + Raw",,https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw,2026-10-05
+coinapi,CoinAPI,What you get,catalogue-breadth,Breadth of derived catalogue,Documented,"Metrics API v1 and v2: depth, spread, liquidity, volume",,https://www.coinapi.io/blog/coinapi-vs-kaiko-crypto-market-data-comparison,2026-07-28
+crypto-lake,Crypto Lake,What you get,catalogue-breadth,Breadth of derived catalogue,Documented,Candles only,,https://crypto-lake.com/data/,2026-10-01
+coin-metrics,Coin Metrics,What you get,catalogue-breadth,Breadth of derived catalogue,Documented,"Liquidity, volatility, volume, OI, liquidations across 400k+ markets",,https://gitbook-docs.coinmetrics.io/market-data/market-data-overview/liquidity https://coinmetrics.io/market-data-pro/,2026-07-28
+exchange-archives,Exchange archives,What you get,catalogue-breadth,Breadth of derived catalogue,n/a,n/a,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,What you get,catalogue-breadth,Breadth of derived catalogue,Documented,"Broad: price impact, liquidity, vol surfaces, options analytics",,https://www.amberdata.io/analytics https://www.amberdata.io/derivatives-analytics https://www.amberdata.io/deribit-market-data,2026-07-28
+coindesk-data,CoinDesk Data,What you get,catalogue-breadth,Breadth of derived catalogue,Documented,"Trades, order books, derivatives, on-chain, indices, news",,https://data.coindesk.com/derivatives https://data.coindesk.com/trade-data https://data.coindesk.com/order-book,2026-10-01
+glassnode,glassnode,What you get,catalogue-breadth,Breadth of derived catalogue,Documented,Broad on-chain catalogue,,https://docs.glassnode.com/basic-api/endpoints/market,2026-10-01
+velo,Velo,What you get,catalogue-breadth,Breadth of derived catalogue,Documented,"Futures, options and spot columns plus orderbook depth",,https://docs.velo.xyz/api/data,2026-10-01
+laevitas,Laevitas,What you get,catalogue-breadth,Breadth of derived catalogue,Documented,"Options, perps, dated futures, order books",,https://apiv2.laevitas.ch/llms.txt,2026-10-01
+cryptoquant,CryptoQuant,What you get,catalogue-breadth,Breadth of derived catalogue,Documented,"245+ metrics: exchange flows, miners, network, market",,https://docs.cryptoquant.com/catalog/catalog.json,2026-10-01
+coingecko,CoinGecko,What you get,catalogue-breadth,Breadth of derived catalogue,Documented,"Prices, market caps, exchanges, DEX pools, NFTs, treasuries",,https://docs.coingecko.com/index.md,2026-10-01
+coinglass,CoinGlass,What you get,catalogue-breadth,Breadth of derived catalogue,Documented,80 to 160+ endpoints by plan,,https://docs.coinglass.com/llms.txt,2026-10-01
+coinalyze,Coinalyze,What you get,catalogue-breadth,Breadth of derived catalogue,Documented,"OHLCV, OI, funding, liquidations, long/short ratio",,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,What you get,catalogue-breadth,Breadth of derived catalogue,Documented,100+ indicators in three tiers,,https://docs.hyblockcapital.com/llms.txt https://docs.hyblockcapital.com/bid-ask-ratio,2026-10-01
+coinmarketcap,CoinMarketCap,What you get,catalogue-breadth,Breadth of derived catalogue,Documented,"Prices, OHLCV, listings, global metrics, DEX",,https://coinmarketcap.com/api/documentation/v1,2026-10-01
+tardis,Tardis.dev,What you get,compute-left,Compute you still have to do yourself,Our judgement,Everything,,,2026-10-01
+kaiko,Kaiko,What you get,compute-left,Compute you still have to do yourself,Our judgement,"Little, for the metrics they cover",,,2026-10-01
+aperiodic,Aperiodic.io,What you get,compute-left,Compute you still have to do yourself,Our judgement,"None, for the metrics covered",,,2026-10-05
+coinapi,CoinAPI,What you get,compute-left,Compute you still have to do yourself,Our judgement,Some,,,2026-10-01
+crypto-lake,Crypto Lake,What you get,compute-left,Compute you still have to do yourself,Our judgement,Almost everything,,,2026-10-01
+coin-metrics,Coin Metrics,What you get,compute-left,Compute you still have to do yourself,Our judgement,"Little, for liquidity and volatility",,,2026-10-01
+exchange-archives,Exchange archives,What you get,compute-left,Compute you still have to do yourself,Our judgement,Everything,,,2026-10-01
+amberdata,Amberdata,What you get,compute-left,Compute you still have to do yourself,Our judgement,"Little, for the metrics they cover",,,2026-10-01
+coindesk-data,CoinDesk Data,What you get,compute-left,Compute you still have to do yourself,Our judgement,Some,,,2026-10-01
+glassnode,glassnode,What you get,compute-left,Compute you still have to do yourself,Our judgement,"Little, for the metrics covered",,,2026-10-01
+velo,Velo,What you get,compute-left,Compute you still have to do yourself,Our judgement,Some,,,2026-10-01
+laevitas,Laevitas,What you get,compute-left,Compute you still have to do yourself,Our judgement,"Little, for derivatives metrics",,,2026-10-01
+cryptoquant,CryptoQuant,What you get,compute-left,Compute you still have to do yourself,Our judgement,"Little, for the metrics covered",,,2026-10-01
+coingecko,CoinGecko,What you get,compute-left,Compute you still have to do yourself,Our judgement,"Most, for microstructure work",,,2026-10-01
+coinglass,CoinGlass,What you get,compute-left,Compute you still have to do yourself,Our judgement,"Little, for the metrics covered",,,2026-10-01
+coinalyze,Coinalyze,What you get,compute-left,Compute you still have to do yourself,Our judgement,"Most, beyond the series offered",,,2026-10-01
+hyblock,Hyblock Capital,What you get,compute-left,Compute you still have to do yourself,Our judgement,"Little, for the indicators covered",,,2026-10-01
+coinmarketcap,CoinMarketCap,What you get,compute-left,Compute you still have to do yourself,Our judgement,"Most, for microstructure work",,,2026-10-01
+tardis,Tardis.dev,Access and commercials,delivery-format,Delivery format,Documented,"CSV datasets, API, client libraries",,https://docs.tardis.dev/faq/billing-and-subscriptions https://docs.tardis.dev/downloadable-csv-files,2026-10-01
+kaiko,Kaiko,Access and commercials,delivery-format,Delivery format,Documented,"REST API, cloud delivery (S3, BigQuery, Snowflake)",,https://docs.kaiko.com/,2026-10-01
+aperiodic,Aperiodic.io,Access and commercials,delivery-format,Delivery format,Documented,"Parquet via CLI, REST API and Python SDK; S3, custom delivery and a real-time stream on Institutional",,https://aperiodic.io/agents https://aperiodic.io/catalog.json https://aperiodic.io/raw-data https://aperiodic.io/llms.txt https://aperiodic.io/api/v1/metadata/raw https://aperiodic.io/pricing https://aperiodic.io/llms.txt,2026-10-05
+coinapi,CoinAPI,Access and commercials,delivery-format,Delivery format,Documented,"REST, WebSocket, FIX (Pro plan and up), flat files via S3",,https://www.coinapi.io/blog/how-deep-is-crypto-order-book-data https://www.coinapi.io/products/market-data-api/pricing https://www.coinapi.io/products/market-data-api,2026-07-28
+crypto-lake,Crypto Lake,Access and commercials,delivery-format,Delivery format,Documented,"Parquet on S3, lakeapi package",,https://crypto-lake.com/data/ https://lake-api.readthedocs.io/,2026-10-01
+coin-metrics,Coin Metrics,Access and commercials,delivery-format,Delivery format,Documented,"REST API, websocket, Python client, S3 or Snowflake cloud delivery, data downloader",,https://gitbook-docs.coinmetrics.io/packages/coin-metrics-community-data,2026-10-01
+exchange-archives,Exchange archives,Access and commercials,delivery-format,Delivery format,Documented,CSV / ZIP over HTTPS,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,Access and commercials,delivery-format,Delivery format,Documented,"REST, WebSocket, S3, Snowflake, BigQuery, Databricks",,https://www.amberdata.io/analytics https://docs.amberdata.io/docs/market/market-overview https://docs.amberdata.io/data-dictionary/market/order-books,2026-07-28
+coindesk-data,CoinDesk Data,Access and commercials,delivery-format,Delivery format,Documented,"REST (JSON or CSV), WebSocket, cloud storage delivery",,https://data.coindesk.com/trade-data https://data.coindesk.com/order-book,2026-10-01
+glassnode,glassnode,Access and commercials,delivery-format,Delivery format,Documented,"REST API, Studio web app",,https://docs.glassnode.com/basic-api/api-key,2026-10-01
+velo,Velo,Access and commercials,delivery-format,Delivery format,Documented,"REST API (CSV), Python and Node libraries, CSV export in web app",,https://docs.velo.xyz/api/data,2026-10-01
+laevitas,Laevitas,Access and commercials,delivery-format,Delivery format,Documented,"REST API v2, WebSocket, MCP server, CSV export on Premium",,https://apiv2.laevitas.ch/llms.txt https://apiv2.laevitas.ch/websocket,2026-10-01
+cryptoquant,CryptoQuant,Access and commercials,delivery-format,Delivery format,Documented,"REST API, MCP server",,https://cryptoquant.com/apis,2026-10-01
+coingecko,CoinGecko,Access and commercials,delivery-format,Delivery format,Documented,"REST API, WebSocket from Basic",,https://www.coingecko.com/en/api/pricing,2026-10-01
+coinglass,CoinGlass,Access and commercials,delivery-format,Delivery format,Documented,REST API,,https://docs.coinglass.com/llms.txt,2026-10-01
+coinalyze,Coinalyze,Access and commercials,delivery-format,Delivery format,Documented,REST API,,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,Access and commercials,delivery-format,Delivery format,Documented,"REST API (API Explorer), web terminal",,https://hyblockcapital.com/api-explorer,2026-10-01
+coinmarketcap,CoinMarketCap,Access and commercials,delivery-format,Delivery format,Documented,REST API,,https://coinmarketcap.com/api/documentation/v1,2026-10-01
+tardis,Tardis.dev,Access and commercials,rate-limits,Rate limits or volume caps,Documented,"3,000 req/min (Business 9,000); transfer capped at 20 TB/month up to 240 TB/year (Business 60 TB up to 720 TB); only one source IP per key at a time except on Business",,https://docs.tardis.dev/faq/billing-and-subscriptions https://docs.tardis.dev/api/rate-limits,2026-10-01
+kaiko,Kaiko,Access and commercials,rate-limits,Rate limits or volume caps,Documented,Per contract,,https://www.kaiko.com/about-kaiko/pricing-and-contracts,2026-09-25
+aperiodic,Aperiodic.io,Access and commercials,rate-limits,Rate limits or volume caps,Documented,"Elevated on Core, high on Pro, none on Prime and above; each raw request covers up to 366 days",,https://aperiodic.io/pricing https://aperiodic.io/llms.txt https://aperiodic.io/api-docs https://aperiodic.io/api.data.specification.json,2026-10-05
+coinapi,CoinAPI,Access and commercials,rate-limits,Rate limits or volume caps,Documented,"Daily REST credits and data quotas by plan (Startup: 1,000 credits and 32 GiB of Tier 1 data a day)",,https://www.coinapi.io/products/market-data-api/pricing https://www.coinapi.io/products/market-data-api,2026-10-01
+crypto-lake,Crypto Lake,Access and commercials,rate-limits,Rate limits or volume caps,Documented,300 GB/month soft limit for individuals; 3 TB/quarter for companies,,https://crypto-lake.com/subscribe/,2026-10-01
+coin-metrics,Coin Metrics,Access and commercials,rate-limits,Rate limits or volume caps,Documented,Community: 10 requests per 6 seconds per IP (about 1.7 req/s); Pro about 300 req/s,,https://gitbook-docs.coinmetrics.io/packages/coin-metrics-community-data,2026-10-01
+exchange-archives,Exchange archives,Access and commercials,rate-limits,Rate limits or volume caps,Documented,None documented,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,Access and commercials,rate-limits,Rate limits or volume caps,Documented,Per contract,,https://www.amberdata.io/pricing,2026-09-25
+coindesk-data,CoinDesk Data,Access and commercials,rate-limits,Rate limits or volume caps,Documented,"Per plan, not published",,https://data.coindesk.com/blogs/changes-to-coindesk-data-indices-api-free-tier-access,2026-10-01
+glassnode,glassnode,Access and commercials,rate-limits,Rate limits or volume caps,Documented,Per plan,,https://docs.glassnode.com/basic-api/api-credits,2026-10-01
+velo,Velo,Access and commercials,rate-limits,Rate limits or volume caps,Documented,"22,500 values per request; plan rate limits",,https://docs.velo.xyz/api/data,2026-10-01
+laevitas,Laevitas,Access and commercials,rate-limits,Rate limits or volume caps,Documented,High-throughput API only on Custom Enterprise,,https://laevitas.ch/pricing,2026-10-01
+cryptoquant,CryptoQuant,Access and commercials,rate-limits,Rate limits or volume caps,Documented,10 req/min (Basic) up to 800 req/min (Premium),,https://cryptoquant.com/apis,2026-10-01
+coingecko,CoinGecko,Access and commercials,rate-limits,Rate limits or volume caps,Documented,"100 req/min (Demo) to 1,000 req/min (Pro)",,https://www.coingecko.com/en/api/pricing,2026-10-01
+coinglass,CoinGlass,Access and commercials,rate-limits,Rate limits or volume caps,Documented,"30 to 1,200 requests/min by plan",,https://www.coinglass.com/pricing,2026-10-01
+coinalyze,Coinalyze,Access and commercials,rate-limits,Rate limits or volume caps,Documented,40 calls per minute per key,,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,Access and commercials,rate-limits,Rate limits or volume caps,Documented,"600 requests/minute, burst 10 (Professional)",,https://hyblockcapital.com/pricing,2026-10-01
+coinmarketcap,CoinMarketCap,Access and commercials,rate-limits,Rate limits or volume caps,Documented,"50 req/min (Basic) to 1,200 req/min (Professional)",,https://coinmarketcap.com/api/pricing,2026-10-01
+tardis,Tardis.dev,Access and commercials,backfill-friction,Friction on a full historical backfill,Documented,"Docs advise on-demand fetching over mirroring the archive. One key and one source IP at a time on Solo/Academic/Pro; parallel replay sessions hit the 3,000 req/min account limit quickly; transfer caps with no usage meter documented",,https://docs.tardis.dev/faq/billing-and-subscriptions https://docs.tardis.dev/api/rate-limits,2026-10-01
+kaiko,Kaiko,Access and commercials,backfill-friction,Friction on a full historical backfill,Documented,Per contract,,https://www.kaiko.com/about-kaiko/pricing-and-contracts,2026-09-25
+aperiodic,Aperiodic.io,Access and commercials,backfill-friction,Friction on a full historical backfill,Documented,"Rate limits on Core and Pro, none on Prime and above; no transfer cap stated",,https://aperiodic.io/pricing https://aperiodic.io/llms.txt,2026-10-05
+coinapi,CoinAPI,Access and commercials,backfill-friction,Friction on a full historical backfill,Documented,"Metered by credits, so bulk pulls consume quota",,https://www.coinapi.io/products/market-data-api/pricing https://www.coinapi.io/products/market-data-api,2026-10-01
+crypto-lake,Crypto Lake,Access and commercials,backfill-friction,Friction on a full historical backfill,Documented,Capped by the monthly download limit,,https://crypto-lake.com/subscribe/,2026-10-01
+coin-metrics,Coin Metrics,Access and commercials,backfill-friction,Friction on a full historical backfill,Documented,Community rate limit (10 requests per 6 seconds per IP) slows bulk pulls,,https://gitbook-docs.coinmetrics.io/packages/coin-metrics-community-data,2026-10-01
+exchange-archives,Exchange archives,Access and commercials,backfill-friction,Friction on a full historical backfill,Documented,"None, but you assemble and normalise it yourself",,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,Access and commercials,backfill-friction,Friction on a full historical backfill,Documented,REST order book history capped at 18 months; deeper history via bulk delivery,,https://docs.amberdata.io/changelog/rest-access-historical-order-book-limited,2026-10-01
+coindesk-data,CoinDesk Data,Access and commercials,backfill-friction,Friction on a full historical backfill,Documented,Per contract,,https://data.coindesk.com/blogs/changes-to-coindesk-data-indices-api-free-tier-access,2026-10-01
+glassnode,glassnode,Access and commercials,backfill-friction,Friction on a full historical backfill,Documented,600 req/min by default and credits per request; bulk endpoints on Professional only,,https://docs.glassnode.com/basic-api/api-credits,2026-10-01
+velo,Velo,Access and commercials,backfill-friction,Friction on a full historical backfill,Documented,"Requests capped at 22,500 values, so long pulls need batching",,https://docs.velo.xyz/api/data,2026-10-01
+laevitas,Laevitas,Access and commercials,backfill-friction,Friction on a full historical backfill,Documented,"Up to 1,000 rows per request with cursor pagination; raw L2 snapshots kept 30 days",,https://apiv2.laevitas.ch/api-json,2026-10-01
+cryptoquant,CryptoQuant,Access and commercials,backfill-friction,Friction on a full historical backfill,Documented,Credit metered; history capped below Premium,,https://cryptoquant.com/apis,2026-10-01
+coingecko,CoinGecko,Access and commercials,backfill-friction,Friction on a full historical backfill,Documented,Credit metering,,https://www.coingecko.com/en/api/pricing,2026-10-01
+coinglass,CoinGlass,Access and commercials,backfill-friction,Friction on a full historical backfill,Documented,CSV and bulk export only on Enterprise,,https://www.coinglass.com/pricing,2026-10-01
+coinalyze,Coinalyze,Access and commercials,backfill-friction,Friction on a full historical backfill,Documented,"Intraday history deleted after 1,500 to 2,000 points",,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,Access and commercials,backfill-friction,Friction on a full historical backfill,Documented,History capped at 3 months on monthly billing,,https://hyblockcapital.com/pricing,2026-10-01
+coinmarketcap,CoinMarketCap,Access and commercials,backfill-friction,Friction on a full historical backfill,Documented,Credit metering,,https://coinmarketcap.com/api/pricing,2026-10-01
+tardis,Tardis.dev,Access and commercials,pricing-model,How the pricing works,Documented,Subscription type × data plan × billing interval,,https://tardis.dev/ https://docs.tardis.dev/faq/billing-and-subscriptions,2026-10-01
+kaiko,Kaiko,Access and commercials,pricing-model,How the pricing works,Documented,Negotiated contract,,https://www.kaiko.com/about-kaiko/pricing-and-contracts,2026-09-25
+aperiodic,Aperiodic.io,Access and commercials,pricing-model,How the pricing works,Documented,"Tiered subscription: Core, Pro, Prime and Prime + Raw self-serve, plus quoted Institutional",,https://aperiodic.io/pricing https://aperiodic.io/llms.txt,2026-10-05
+coinapi,CoinAPI,Access and commercials,pricing-model,How the pricing works,Documented,Plan tiers plus credit metering,,https://www.coinapi.io/products/market-data-api/pricing https://www.coinapi.io/products/market-data-api,2026-10-01
+crypto-lake,Crypto Lake,Access and commercials,pricing-model,How the pricing works,Documented,"Flat subscription, individual or team",,https://crypto-lake.com/subscribe/,2026-10-01
+coin-metrics,Coin Metrics,Access and commercials,pricing-model,How the pricing works,Documented,"Free community tier, then enterprise contract",,https://gitbook-docs.coinmetrics.io/packages/coin-metrics-community-data https://coinmetrics.io/product-announcements/updates-to-coin-metrics-community-data/,2026-07-28
+exchange-archives,Exchange archives,Access and commercials,pricing-model,How the pricing works,Documented,Free,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,Access and commercials,pricing-model,How the pricing works,Documented,Negotiated contract; basic and order-book tiers,,https://www.amberdata.io/market-data https://www.amberdata.io/pricing,2026-07-28
+coindesk-data,CoinDesk Data,Access and commercials,pricing-model,How the pricing works,Documented,Sales-quoted subscription,,https://data.coindesk.com/blogs/changes-to-coindesk-data-indices-api-free-tier-access,2026-10-01
+glassnode,glassnode,Access and commercials,pricing-model,How the pricing works,Documented,Tiered subscription; API is a paid add-on to Professional,,https://docs.glassnode.com/basic-api/api-key https://studio.glassnode.com/pricing,2026-10-01
+velo,Velo,Access and commercials,pricing-model,How the pricing works,Documented,Flat API subscription,,https://docs.velo.xyz/api,2026-10-01
+laevitas,Laevitas,Access and commercials,pricing-model,How the pricing works,Documented,Per-seat subscription; USDC payment option,,https://laevitas.ch/pricing,2026-10-01
+cryptoquant,CryptoQuant,Access and commercials,pricing-model,How the pricing works,Documented,"Tiered subscription, credit metered",,https://cryptoquant.com/apis,2026-10-01
+coingecko,CoinGecko,Access and commercials,pricing-model,How the pricing works,Documented,"Tiered subscription, call credits",,https://www.coingecko.com/en/api/pricing,2026-10-01
+coinglass,CoinGlass,Access and commercials,pricing-model,How the pricing works,Documented,Tiered subscription,,https://www.coinglass.com/pricing,2026-10-01
+coinalyze,Coinalyze,Access and commercials,pricing-model,How the pricing works,Documented,Free,,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,Access and commercials,pricing-model,How the pricing works,Documented,"Tiered subscription, monthly or annual",,https://hyblockcapital.com/pricing,2026-10-01
+coinmarketcap,CoinMarketCap,Access and commercials,pricing-model,How the pricing works,Documented,"Tiered subscription, call credits",,https://coinmarketcap.com/api/pricing,2026-10-01
+tardis,Tardis.dev,Access and commercials,price-gates,What the price gates,Documented,"Which data type, how much history, and whether you get CSV and raw replay API",,https://docs.tardis.dev/faq/billing-and-subscriptions https://docs.tardis.dev/faq/billing-and-subscriptions https://tardis.dev/ https://docs.tardis.dev/faq/billing-and-subscriptions,2026-10-01
+kaiko,Kaiko,Access and commercials,price-gates,What the price gates,Documented,Scope of the contract,,https://www.kaiko.com/about-kaiko/pricing-and-contracts,2026-09-25
+aperiodic,Aperiodic.io,Access and commercials,price-gates,What the price gates,Documented,"Which metric tiers, how much history, raw data, and commercial use (Institutional only)",,https://aperiodic.io/pricing https://aperiodic.io/llms.txt,2026-10-05
+coinapi,CoinAPI,Access and commercials,price-gates,What the price gates,Documented,Daily request quota and credit consumption,,https://www.coinapi.io/products/market-data-api/pricing https://www.coinapi.io/products/market-data-api,2026-10-01
+crypto-lake,Crypto Lake,Access and commercials,price-gates,What the price gates,Documented,"Download volume, and whether you are a company",,https://crypto-lake.com/subscribe/,2026-10-01
+coin-metrics,Coin Metrics,Access and commercials,price-gates,What the price gates,Documented,"Metric coverage, history depth and request rate",,https://gitbook-docs.coinmetrics.io/packages/coin-metrics-community-data https://coinmetrics.io/product-announcements/updates-to-coin-metrics-community-data/,2026-07-28
+exchange-archives,Exchange archives,Access and commercials,price-gates,What the price gates,Documented,Nothing,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,Access and commercials,price-gates,What the price gates,Documented,Scope of the contract; granular order book sits above basic,,https://www.amberdata.io/market-data,2026-07-28
+coindesk-data,CoinDesk Data,Access and commercials,price-gates,What the price gates,Documented,Not published,,https://data.coindesk.com/blogs/changes-to-coindesk-data-indices-api-free-tier-access,2026-10-01
+glassnode,glassnode,Access and commercials,price-gates,What the price gates,Documented,"Metric access, resolution and API access",,https://docs.glassnode.com/basic-api/api-key https://studio.glassnode.com/pricing,2026-10-01
+velo,Velo,Access and commercials,price-gates,What the price gates,Documented,History depth (monthly vs yearly billing),,https://docs.velo.xyz/api,2026-10-01
+laevitas,Laevitas,Access and commercials,price-gates,What the price gates,Documented,History depth and API access,,https://laevitas.ch/pricing,2026-10-01
+cryptoquant,CryptoQuant,Access and commercials,price-gates,What the price gates,Documented,"Resolution, history depth, on-chain access, rate limit",,https://cryptoquant.com/apis,2026-10-01
+coingecko,CoinGecko,Access and commercials,price-gates,What the price gates,Documented,"Call credits, history depth, endpoints",,https://www.coingecko.com/en/api/pricing,2026-10-01
+coinglass,CoinGlass,Access and commercials,price-gates,What the price gates,Documented,"Endpoints, rate limit, commercial use",,https://www.coinglass.com/pricing,2026-10-01
+coinalyze,Coinalyze,Access and commercials,price-gates,What the price gates,Documented,Nothing; free if credited when used publicly,,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,Access and commercials,price-gates,What the price gates,Documented,"Indicator tier, API access, history depth",,https://hyblockcapital.com/pricing,2026-10-01
+coinmarketcap,CoinMarketCap,Access and commercials,price-gates,What the price gates,Documented,"Credits, rate limit, WebSocket, endpoints",,https://coinmarketcap.com/api/pricing,2026-10-01
+tardis,Tardis.dev,Access and commercials,entry-price,Entry price,Documented,"$350/month (Academic, Perpetuals or Options plan, quarterly or yearly billing only); Solo from $700/month",,https://tardis.dev/ https://docs.tardis.dev/faq/billing-and-subscriptions,2026-10-01
+kaiko,Kaiko,Access and commercials,entry-price,Entry price,Documented,On request,,https://www.kaiko.com/about-kaiko/pricing-and-contracts,2026-09-25
+aperiodic,Aperiodic.io,Access and commercials,entry-price,Entry price,Documented,$79/month billed yearly ($95 month to month),,https://aperiodic.io/pricing https://aperiodic.io/llms.txt,2026-10-05
+coinapi,CoinAPI,Access and commercials,entry-price,Entry price,Documented,From $79/month,,https://www.coinapi.io/products/market-data-api/pricing https://www.coinapi.io/products/market-data-api,2026-10-01
+crypto-lake,Crypto Lake,Access and commercials,entry-price,Entry price,Documented,$80/month individual ($64 for the first 6 months for new subscribers); companies $500/month,,https://crypto-lake.com/subscribe/,2026-10-01
+coin-metrics,Coin Metrics,Access and commercials,entry-price,Entry price,Documented,Free community tier,,https://gitbook-docs.coinmetrics.io/packages/coin-metrics-community-data,2026-10-01
+exchange-archives,Exchange archives,Access and commercials,entry-price,Entry price,Documented,Free,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,Access and commercials,entry-price,Entry price,Documented,On request,,https://www.amberdata.io/pricing,2026-09-25
+coindesk-data,CoinDesk Data,Access and commercials,entry-price,Entry price,Documented,On request,,https://data.coindesk.com/blogs/changes-to-coindesk-data-indices-api-free-tier-access,2026-10-01
+glassnode,glassnode,Access and commercials,entry-price,Entry price,Documented,Studio free; API add-on on request,A Professional price seen only on third-party listings was dropped: it is not on glassnode's own pages.,https://docs.glassnode.com/basic-api/api-key https://studio.glassnode.com/pricing,2026-10-01
+velo,Velo,Access and commercials,entry-price,Entry price,Documented,$199/month,,https://docs.velo.xyz/api,2026-10-01
+laevitas,Laevitas,Access and commercials,entry-price,Entry price,Documented,"$50/month per seat (Premium, no API)",,https://laevitas.ch/pricing,2026-10-01
+cryptoquant,CryptoQuant,Access and commercials,entry-price,Entry price,Not verified,Not verified,Prices seen only on third-party listings were dropped: CryptoQuant's own pricing page did not show them when checked.,,2026-10-01
+coingecko,CoinGecko,Access and commercials,entry-price,Entry price,Documented,Free Demo plan; Basic $29/month billed yearly,,https://www.coingecko.com/en/api/pricing,2026-10-01
+coinglass,CoinGlass,Access and commercials,entry-price,Entry price,Documented,"$29/month (Hobbyist, personal use)",,https://www.coinglass.com/pricing,2026-10-01
+coinalyze,Coinalyze,Access and commercials,entry-price,Entry price,Documented,Free,,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,Access and commercials,entry-price,Entry price,Documented,"$69/month (Advanced, no API); API from $399/month (Professional)",,https://hyblockcapital.com/pricing,2026-10-01
+coinmarketcap,CoinMarketCap,Access and commercials,entry-price,Entry price,Documented,Free (Basic); Builder $29/month,,https://coinmarketcap.com/api/pricing,2026-10-01
+tardis,Tardis.dev,Access and commercials,entry-plan,What you get at the entry price,Documented,"Academic and Solo: CSV downloads only, one API key. Pro and Business add the raw replay API, tardis-machine and instruments metadata. All Exchanges plan up to $6,000/month on Business",,https://docs.tardis.dev/faq/billing-and-subscriptions https://docs.tardis.dev/api/rate-limits,2026-10-01
+kaiko,Kaiko,Access and commercials,entry-plan,What you get at the entry price,Documented,Nothing published; scope and price are set in the contract,,https://www.kaiko.com/about-kaiko/pricing-and-contracts,2026-09-25
+aperiodic,Aperiodic.io,Access and commercials,entry-plan,What you get at the entry price,Documented,"Core: Tier 0 and 1 metrics (bars, order flow, trade size, price range, derivatives), 4 years of history, 1m to 1d, personal-use licence",,https://aperiodic.io/pricing https://aperiodic.io/llms.txt,2026-10-05
+coinapi,CoinAPI,Access and commercials,entry-plan,What you get at the entry price,Documented,"Startup plan: 1,000 REST credits a day and 32 GiB a day of Tier 1 data",,https://www.coinapi.io/products/market-data-api/pricing https://www.coinapi.io/products/market-data-api,2026-10-01
+crypto-lake,Crypto Lake,Access and commercials,entry-plan,What you get at the entry price,Documented,"All data types, 300 GB/month, individuals and solo quants only — companies not eligible",,https://crypto-lake.com/subscribe/,2026-10-01
+coin-metrics,Coin Metrics,Access and commercials,entry-plan,What you get at the entry price,Documented,"A subset of network and market metrics, all Reference Rates (last 7 points at granular resolutions) and Atlas (30 days, limited assets); no key needed",,https://gitbook-docs.coinmetrics.io/packages/coin-metrics-community-data https://coinmetrics.io/product-announcements/updates-to-coin-metrics-community-data/,2026-07-28
+exchange-archives,Exchange archives,Access and commercials,entry-plan,What you get at the entry price,Documented,Everything the venue publishes,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,Access and commercials,entry-plan,What you get at the entry price,Documented,Nothing published,,https://www.amberdata.io/pricing,2026-09-25
+coindesk-data,CoinDesk Data,Access and commercials,entry-plan,What you get at the entry price,Documented,Nothing published; free tier retired 21 May 2026,,https://data.coindesk.com/blogs/changes-to-coindesk-data-indices-api-free-tier-access,2026-10-01
+glassnode,glassnode,Access and commercials,entry-plan,What you get at the entry price,Documented,"Advanced $49/month billed annually: 300+ metrics at daily resolution, 4 years of history in Studio, personal licence",,https://studio.glassnode.com/pricing,2026-10-01
+velo,Velo,Access and commercials,entry-plan,What you get at the entry price,Documented,API key with 3 months of history on monthly billing,,https://docs.velo.xyz/api,2026-10-01
+laevitas,Laevitas,Access and commercials,entry-plan,What you get at the entry price,Documented,"Premium: 1 year of history, CSV exports; API needs Enterprise at $500/month per seat",,https://laevitas.ch/pricing,2026-10-01
+cryptoquant,CryptoQuant,Access and commercials,entry-plan,What you get at the entry price,Documented,"Basic: market data at daily resolution, 30 days of history",,https://cryptoquant.com/apis,2026-10-01
+coingecko,CoinGecko,Access and commercials,entry-plan,What you get at the entry price,Documented,"Demo: 10k credits/month, 100 req/min, 1 year of daily history, attribution required",,https://www.coingecko.com/en/api/pricing,2026-10-01
+coinglass,CoinGlass,Access and commercials,entry-plan,What you get at the entry price,Documented,"80+ endpoints, 30 req/min, updates within 1 minute, personal use",,https://www.coinglass.com/pricing,2026-10-01
+coinalyze,Coinalyze,Access and commercials,entry-plan,What you get at the entry price,Documented,"Everything, at 40 calls per minute",,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,Access and commercials,entry-plan,What you get at the entry price,Documented,"Advanced: tier 1 and 2 indicators, liquidation heatmap, backtesting lab; no API",,https://hyblockcapital.com/pricing,2026-10-01
+coinmarketcap,CoinMarketCap,Access and commercials,entry-plan,What you get at the entry price,Documented,"Basic: 15,000 credits/month, 50 req/min, 60s updates, commercial use",,https://coinmarketcap.com/api/pricing,2026-10-01
+tardis,Tardis.dev,Access and commercials,keyless-access,Usable without an API key,Yes,"Yes, CSVs for the first day of each month; plus a one-month free trial covering 7 to 14 days of recent data",,https://docs.tardis.dev/faq/billing-and-subscriptions https://docs.tardis.dev/downloadable-csv-files,2026-10-01
+kaiko,Kaiko,Access and commercials,keyless-access,Usable without an API key,Partial,"Partial, Kaiko free tier for reference data",,https://docs.kaiko.com/,2026-07-28
+aperiodic,Aperiodic.io,Access and commercials,keyless-access,Usable without an API key,Yes,"Yes, CLI preview slice",,https://aperiodic.io/agents https://aperiodic.io/,2026-10-05
+coinapi,CoinAPI,Access and commercials,keyless-access,Usable without an API key,No,"No, but an account gets $25 of free pay-as-you-go credits",,https://www.coinapi.io/products/market-data-api/pricing https://www.coinapi.io/products/market-data-api,2026-10-01
+crypto-lake,Crypto Lake,Access and commercials,keyless-access,Usable without an API key,Yes,"Yes, sample data, about a year across four types",,https://crypto-lake.com/coverage/ https://crypto-lake.com/free-data/,2026-10-01
+coin-metrics,Coin Metrics,Access and commercials,keyless-access,Usable without an API key,Yes,"Yes, the community API needs no key",,https://gitbook-docs.coinmetrics.io/packages/coin-metrics-community-data,2026-10-01
+exchange-archives,Exchange archives,Access and commercials,keyless-access,Usable without an API key,Yes,Yes,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,Access and commercials,keyless-access,Usable without an API key,No,"No, every request needs an API key",,https://docs.amberdata.io/http/http-api-fundamentals,2026-10-01
+coindesk-data,CoinDesk Data,Access and commercials,keyless-access,Usable without an API key,No,"No, free tier retired 21 May 2026",,https://data.coindesk.com/blogs/changes-to-coindesk-data-indices-api-free-tier-access,2026-10-01
+glassnode,glassnode,Access and commercials,keyless-access,Usable without an API key,No,No,,https://docs.glassnode.com/basic-api/api-key,2026-10-01
+velo,Velo,Access and commercials,keyless-access,Usable without an API key,Not verified,Not verified,,,2026-10-01
+laevitas,Laevitas,Access and commercials,keyless-access,Usable without an API key,No,No,,https://laevitas.ch/pricing,2026-10-01
+cryptoquant,CryptoQuant,Access and commercials,keyless-access,Usable without an API key,Not verified,Not verified,,,2026-10-01
+coingecko,CoinGecko,Access and commercials,keyless-access,Usable without an API key,Yes,"Yes, keyless public API",,https://www.coingecko.com/en/api/pricing,2026-10-01
+coinglass,CoinGlass,Access and commercials,keyless-access,Usable without an API key,No,No,,https://www.coinglass.com/pricing,2026-10-01
+coinalyze,Coinalyze,Access and commercials,keyless-access,Usable without an API key,No,"No, free key needed",,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,Access and commercials,keyless-access,Usable without an API key,No,No,,https://hyblockcapital.com/pricing,2026-10-01
+coinmarketcap,CoinMarketCap,Access and commercials,keyless-access,Usable without an API key,Partial,"Partial, keyless public API with a curated, rate-limited endpoint subset",,https://coinmarketcap.com/api/pricing https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api,2026-10-01
+tardis,Tardis.dev,Access and commercials,self-serve,Self-serve signup,Yes,Yes,,https://tardis.dev/ https://docs.tardis.dev/faq/billing-and-subscriptions,2026-10-01
+kaiko,Kaiko,Access and commercials,self-serve,Self-serve signup,No,No,,https://www.kaiko.com/about-kaiko/pricing-and-contracts,2026-09-25
+aperiodic,Aperiodic.io,Access and commercials,self-serve,Self-serve signup,Yes,Yes,,https://aperiodic.io/pricing https://aperiodic.io/llms.txt,2026-10-05
+coinapi,CoinAPI,Access and commercials,self-serve,Self-serve signup,Yes,Yes,,https://www.coinapi.io/products/market-data-api/pricing https://www.coinapi.io/products/market-data-api,2026-10-01
+crypto-lake,Crypto Lake,Access and commercials,self-serve,Self-serve signup,Yes,Yes,,https://crypto-lake.com/subscribe/,2026-10-01
+coin-metrics,Coin Metrics,Access and commercials,self-serve,Self-serve signup,Partial,"Community yes, Pro via sales",,https://gitbook-docs.coinmetrics.io/packages/coin-metrics-community-data,2026-10-01
+exchange-archives,Exchange archives,Access and commercials,self-serve,Self-serve signup,Yes,Yes,,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,Access and commercials,self-serve,Self-serve signup,Not verified,Not verified,,,2026-10-01
+coindesk-data,CoinDesk Data,Access and commercials,self-serve,Self-serve signup,No,No,,https://data.coindesk.com/blogs/changes-to-coindesk-data-indices-api-free-tier-access,2026-10-01
+glassnode,glassnode,Access and commercials,self-serve,Self-serve signup,Partial,Yes for Studio; API via sales,,https://docs.glassnode.com/basic-api/api-key https://studio.glassnode.com/pricing,2026-10-01
+velo,Velo,Access and commercials,self-serve,Self-serve signup,Yes,Yes,,https://docs.velo.xyz/api,2026-10-01
+laevitas,Laevitas,Access and commercials,self-serve,Self-serve signup,Yes,Yes,,https://laevitas.ch/pricing,2026-10-01
+cryptoquant,CryptoQuant,Access and commercials,self-serve,Self-serve signup,Yes,Yes,,https://cryptoquant.com/pricing,2026-10-01
+coingecko,CoinGecko,Access and commercials,self-serve,Self-serve signup,Yes,Yes,,https://www.coingecko.com/en/api/pricing,2026-10-01
+coinglass,CoinGlass,Access and commercials,self-serve,Self-serve signup,Yes,Yes,,https://www.coinglass.com/pricing,2026-10-01
+coinalyze,Coinalyze,Access and commercials,self-serve,Self-serve signup,Yes,Yes,,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,Access and commercials,self-serve,Self-serve signup,Yes,Yes,,https://hyblockcapital.com/pricing,2026-10-01
+coinmarketcap,CoinMarketCap,Access and commercials,self-serve,Self-serve signup,Yes,Yes,,https://coinmarketcap.com/api/pricing,2026-10-01
+tardis,Tardis.dev,In one line,best-for,Best suited to,Our judgement,Anyone who needs the actual tape,,,2026-10-01
+kaiko,Kaiko,In one line,best-for,Best suited to,Our judgement,"Regulated and benchmark use, L2 aggregations",,,2026-10-01
+aperiodic,Aperiodic.io,In one line,best-for,Best suited to,Our judgement,Skipping the compute step entirely & accessing raw data without rate limits,,,2026-10-05
+coinapi,CoinAPI,In one line,best-for,Best suited to,Our judgement,One schema across a very large venue count,,,2026-10-01
+crypto-lake,Crypto Lake,In one line,best-for,Best suited to,Our judgement,Affordable depth data in a research-friendly format,,,2026-10-01
+coin-metrics,Coin Metrics,In one line,best-for,Best suited to,Our judgement,"Cross-venue and on-chain metrics, plus liquidity and volatility series",,,2026-10-01
+exchange-archives,Exchange archives,In one line,best-for,Best suited to,Our judgement,Cheap bulk backtests at trade and candle level,,,2026-10-01
+amberdata,Amberdata,In one line,best-for,Best suited to,Our judgement,"Options and volatility analytics, on-chain data",,,2026-10-01
+coindesk-data,CoinDesk Data,In one line,best-for,Best suited to,Our judgement,Broad normalised history across many venues,,,2026-10-01
+glassnode,glassnode,In one line,best-for,Best suited to,Our judgement,On-chain metrics with point-in-time history for backtests,,,2026-10-01
+velo,Velo,In one line,best-for,Best suited to,Our judgement,Cross-exchange derivatives research at minute resolution,,,2026-10-01
+laevitas,Laevitas,In one line,best-for,Best suited to,Our judgement,Options and derivatives analytics,,,2026-10-01
+cryptoquant,CryptoQuant,In one line,best-for,Best suited to,Our judgement,Exchange flows and on-chain indicators,,,2026-10-01
+coingecko,CoinGecko,In one line,best-for,Best suited to,Our judgement,Asset reference data and aggregated prices,,,2026-10-01
+coinglass,CoinGlass,In one line,best-for,Best suited to,Our judgement,Liquidation and positioning data for discretionary traders,,,2026-10-01
+coinalyze,Coinalyze,In one line,best-for,Best suited to,Our judgement,Free derivatives series for prototyping,,,2026-10-01
+hyblock,Hyblock Capital,In one line,best-for,Best suited to,Our judgement,Liquidation heatmaps and positioning signals,,,2026-10-01
+coinmarketcap,CoinMarketCap,In one line,best-for,Best suited to,Our judgement,Reference prices and asset metadata,,,2026-10-01
+tardis,Tardis.dev,In one line,gotchas,Main gotchas,Our judgement,"You build book reconstruction and every aggregation yourself, starting from gzipped CSV (one file per exchange, data type, day and symbol). History tops out at 4 years outside Business, and only on yearly billing. Gaps from exchange outages are permanent and not listed in Tardis's incident reports",,,2026-10-01
+kaiko,Kaiko,In one line,gotchas,Main gotchas,Our judgement,No public pricing and a sales cycle,,,2026-10-01
+aperiodic,Aperiodic.io,In one line,gotchas,Main gotchas,Our judgement,Three perp venues for now; raw L2 order books not offered yet (coming soon),,,2026-10-05
+coinapi,CoinAPI,In one line,gotchas,Main gotchas,Our judgement,"Credit metering, so bulk history pulls consume quota",,,2026-10-01
+crypto-lake,Crypto Lake,In one line,gotchas,Main gotchas,Our judgement,"Selected pairs only, origin_time gaps in book data, download caps, individuals only on the $80 plan",,,2026-10-01
+coin-metrics,Coin Metrics,In one line,gotchas,Main gotchas,Our judgement,Community tier trimmed Oct 2025; microstructure depth behind Pro,,,2026-10-01
+exchange-archives,Exchange archives,In one line,gotchas,Main gotchas,Our judgement,"Per-venue schemas, no local timestamps, delisted files not guaranteed",,,2026-10-01
+amberdata,Amberdata,In one line,gotchas,Main gotchas,Our judgement,Acquired by Kaiko (announced June 2026); REST order book history limited to 18 months,,,2026-10-01
+coindesk-data,CoinDesk Data,In one line,gotchas,Main gotchas,Our judgement,No public pricing and no free tier since May 2026,,,2026-10-01
+glassnode,glassnode,In one line,gotchas,Main gotchas,Our judgement,API only as an add-on to Professional; PIT history only from July 2025,,,2026-10-01
+velo,Velo,In one line,gotchas,Main gotchas,Our judgement,Minute bars only; full history only on yearly billing,,,2026-10-01
+laevitas,Laevitas,In one line,gotchas,Main gotchas,Our judgement,API history only from the $500/month Enterprise plan,,,2026-10-01
+cryptoquant,CryptoQuant,In one line,gotchas,Main gotchas,Our judgement,On-chain data needs Professional or above; full history only on Premium,,,2026-10-01
+coingecko,CoinGecko,In one line,gotchas,Main gotchas,Our judgement,"Aggregated prices, not venue-level microstructure",,,2026-10-01
+coinglass,CoinGlass,In one line,gotchas,Main gotchas,Our judgement,Commercial use only from Standard ($299/month); bulk export only on Enterprise,,,2026-10-01
+coinalyze,Coinalyze,In one line,gotchas,Main gotchas,Our judgement,"Intraday history rolls off, so no long intraday backtests",,,2026-10-01
+hyblock,Hyblock Capital,In one line,gotchas,Main gotchas,Our judgement,API only on Professional; 3 months of history unless billed annually,,,2026-10-01
+coinmarketcap,CoinMarketCap,In one line,gotchas,Main gotchas,Our judgement,"Aggregated prices only, no venue-level microstructure",,,2026-10-01
+tardis,Tardis.dev,Access and commercials,monthly-full-history,Full historical data access on a monthly subscription,No,"No, monthly billing includes 4 months of history; everything since 2019-03-30 needs yearly Business billing",,https://docs.tardis.dev/faq/billing-and-subscriptions,2026-10-01
+kaiko,Kaiko,Access and commercials,monthly-full-history,Full historical data access on a monthly subscription,Not documented,Not documented; access and pricing are set in a contract,,https://www.kaiko.com/about-kaiko/pricing-and-contracts,2026-09-25
+aperiodic,Aperiodic.io,Access and commercials,monthly-full-history,Full historical data access on a monthly subscription,Yes,"Yes, on Prime ($879/month) and Prime + Raw ($1,579/month) billed month to month",,https://aperiodic.io/pricing https://aperiodic.io/llms.txt,2026-10-05
+coinapi,CoinAPI,Access and commercials,monthly-full-history,Full historical data access on a monthly subscription,Not verified,Not verified,,,2026-10-05
+crypto-lake,Crypto Lake,Access and commercials,monthly-full-history,Full historical data access on a monthly subscription,Not documented,"Not documented; the monthly plan states a download cap, not a history limit",,https://crypto-lake.com/subscribe/,2026-10-01
+coin-metrics,Coin Metrics,Access and commercials,monthly-full-history,Full historical data access on a monthly subscription,No,"No, full history is an enterprise contract; the free community tier is limited",,https://gitbook-docs.coinmetrics.io/packages/coin-metrics-community-data https://coinmetrics.io/product-announcements/updates-to-coin-metrics-community-data/,2026-07-28
+exchange-archives,Exchange archives,Access and commercials,monthly-full-history,Full historical data access on a monthly subscription,Yes,"Yes, free with no subscription",,https://data.binance.vision/,2026-07-28
+amberdata,Amberdata,Access and commercials,monthly-full-history,Full historical data access on a monthly subscription,Not documented,Not documented; plans are quoted on request,,https://www.amberdata.io/pricing,2026-09-25
+coindesk-data,CoinDesk Data,Access and commercials,monthly-full-history,Full historical data access on a monthly subscription,Not documented,Not documented; subscriptions are sales-quoted,,https://data.coindesk.com/blogs/changes-to-coindesk-data-indices-api-free-tier-access,2026-10-01
+glassnode,glassnode,Access and commercials,monthly-full-history,Full historical data access on a monthly subscription,Not verified,Not verified,,,2026-10-05
+velo,Velo,Access and commercials,monthly-full-history,Full historical data access on a monthly subscription,No,"No, monthly billing includes 3 months of history; full history needs yearly billing",,https://docs.velo.xyz/api,2026-10-01
+laevitas,Laevitas,Access and commercials,monthly-full-history,Full historical data access on a monthly subscription,Not documented,"Not documented; Enterprise ($500/month per seat) includes API history, depth not stated",,https://laevitas.ch/pricing,2026-10-01
+cryptoquant,CryptoQuant,Access and commercials,monthly-full-history,Full historical data access on a monthly subscription,Not verified,Not verified,,,2026-10-05
+coingecko,CoinGecko,Access and commercials,monthly-full-history,Full historical data access on a monthly subscription,Not verified,Not verified,,,2026-10-05
+coinglass,CoinGlass,Access and commercials,monthly-full-history,Full historical data access on a monthly subscription,Not verified,Not verified,,,2026-10-05
+coinalyze,Coinalyze,Access and commercials,monthly-full-history,Full historical data access on a monthly subscription,Partial,"Partial, free; daily history is kept, intraday history rolls off after 1,500 to 2,000 points",,https://api.coinalyze.net/v1/doc,2026-10-01
+hyblock,Hyblock Capital,Access and commercials,monthly-full-history,Full historical data access on a monthly subscription,No,"No, the monthly API plan includes 3 months of history; 3 years needs annual billing",,https://hyblockcapital.com/pricing,2026-10-01
+coinmarketcap,CoinMarketCap,Access and commercials,monthly-full-history,Full historical data access on a monthly subscription,Not verified,Not verified,,,2026-10-05
