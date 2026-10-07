@@ -1,7 +1,7 @@
 {
   "title": "Crypto market data vendors compared",
   "compiled": "2026-07-28",
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "contact": "info@aperiodic.io",
   "publisher": "Aperiodic",
   "disclosure": "Built by Aperiodic, which is one of the columns, so this is not an independent review. Nobody is ranked. Facts come from each vendor’s own public pages, with the date they were checked; rows marked judgement are opinion.",
@@ -880,7 +880,7 @@
         "https://aperiodic.io/llms.txt"
       ],
       "checked": "2026-10-05",
-      "note": "$79 to $1,249/month billed yearly ($95 to $1,579 monthly); 4 years on Core and Pro, full history on Prime and Prime + Raw, monthly or yearly ($879 and $1,579 month to month); API rate limits elevated on Core, high on Pro, none on Prime; Core covers Tier 0 and 1 metrics; Institutional adds a real-time data stream, S3 and custom delivery; raw L2 order book: not offered yet; personal licence on self-serve; raw data on Prime + Raw"
+      "note": "$299 to $1,249/month billed yearly ($379 to $1,579 monthly); Pro, Prime and Prime + Raw self-serve; 4 years on Pro, 5 years on Prime and Prime + Raw, monthly or yearly ($879 and $1,579 month to month); API rate limits high on Pro, none on Prime and Prime + Raw; Pro covers 15 of 19 metric datasets, Prime all 19; real-time stream over Kafka on request for Pro and Prime; Institutional adds full history, real-time for Prime + Raw, S3 and custom delivery; raw L2 order book: not offered yet; personal licence on Pro and Prime, commercial licence on Prime + Raw; raw data on Prime + Raw"
     },
     {
       "id": "aperiodic-home",
@@ -3098,7 +3098,7 @@
       "vendor": "aperiodic",
       "criterion": "history-by-plan",
       "status": "fact",
-      "value": "4 years on Core and Pro; full history on Prime and above",
+      "value": "4 years on Pro; 5 years on Prime and Prime + Raw; full history on Institutional",
       "sources": [
         "aperiodic-pricing"
       ],
@@ -7002,7 +7002,7 @@
       "vendor": "aperiodic",
       "criterion": "delivery-format",
       "status": "fact",
-      "value": "Parquet via CLI, REST API and Python SDK; S3, custom delivery and a real-time stream on Institutional",
+      "value": "Parquet via CLI, REST API and Python SDK; a real-time stream over Kafka on request (Institutional for Prime + Raw); S3 and custom delivery on Institutional",
       "sources": [
         "aperiodic-agents",
         "aperiodic-catalog",
@@ -7188,7 +7188,7 @@
       "vendor": "aperiodic",
       "criterion": "rate-limits",
       "status": "fact",
-      "value": "Elevated on Core, high on Pro, none on Prime and above; each raw request covers up to 366 days",
+      "value": "High on Pro, none on Prime and above; each raw request covers up to 366 days",
       "sources": [
         "aperiodic-pricing",
         "aperiodic-api"
@@ -7370,7 +7370,7 @@
       "vendor": "aperiodic",
       "criterion": "backfill-friction",
       "status": "fact",
-      "value": "Rate limits on Core and Pro, none on Prime and above; no transfer cap stated",
+      "value": "Rate limits on Pro, none on Prime and above; no transfer cap stated",
       "sources": [
         "aperiodic-pricing"
       ],
@@ -7550,7 +7550,7 @@
       "vendor": "aperiodic",
       "criterion": "pricing-model",
       "status": "fact",
-      "value": "Tiered subscription: Core, Pro, Prime and Prime + Raw self-serve, plus quoted Institutional",
+      "value": "Tiered subscription: Pro, Prime and Prime + Raw self-serve, plus quoted Live and Institutional",
       "sources": [
         "aperiodic-pricing"
       ],
@@ -7735,7 +7735,7 @@
       "vendor": "aperiodic",
       "criterion": "price-gates",
       "status": "fact",
-      "value": "Which metric tiers, how much history, raw data, and commercial use (Institutional only)",
+      "value": "Which metric datasets, how much history, real-time, raw data, and commercial use (Prime + Raw and Institutional)",
       "sources": [
         "aperiodic-pricing"
       ],
@@ -7917,7 +7917,7 @@
       "vendor": "aperiodic",
       "criterion": "entry-price",
       "status": "fact",
-      "value": "$79/month billed yearly ($95 month to month)",
+      "value": "$299/month billed yearly ($379 month to month)",
       "sources": [
         "aperiodic-pricing"
       ],
@@ -8099,7 +8099,7 @@
       "vendor": "aperiodic",
       "criterion": "entry-plan",
       "status": "fact",
-      "value": "Core: Tier 0 and 1 metrics (bars, order flow, trade size, price range, derivatives), 4 years of history, 1m to 1d, personal-use licence",
+      "value": "Pro: 15 of 19 metric datasets (market data, trades and derivatives, plus L1 Price), 4 years of history, 1m to 1d, personal licence",
       "sources": [
         "aperiodic-pricing"
       ],
@@ -8924,8 +8924,8 @@
     {
       "vendor": "aperiodic",
       "criterion": "monthly-full-history",
-      "status": "yes",
-      "value": "Yes, on Prime ($879/month) and Prime + Raw ($1,579/month) billed month to month",
+      "status": "partial",
+      "value": "Partial, Prime ($879/month) and Prime + Raw ($1,579/month) include 5 years billed month to month; full history is Institutional",
       "sources": [
         "aperiodic-pricing"
       ],
@@ -9072,6 +9072,11 @@
     }
   ],
   "changelog": [
+    {
+      "date": "2026-10-06",
+      "vendor": "aperiodic",
+      "change": "Aperiodic: new self-serve lineup of Pro, Prime and Prime + Raw (Core retired). Entry price $299/month billed yearly ($379 month to month); 4 years of history on Pro and 5 on Prime and Prime + Raw, with full history on Institutional; Prime + Raw carries a commercial licence; a real-time stream is quoted on request."
+    },
     {
       "date": "2026-10-05",
       "change": "New row: full historical data access on a monthly subscription. Answers come from each vendor's pricing pages; six columns are Not verified until the re-check finds a page that settles them."
