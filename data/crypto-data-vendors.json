@@ -1,7 +1,7 @@
 {
   "title": "Crypto market data vendors compared",
   "compiled": "2026-07-28",
-  "updated": "2026-10-06",
+  "updated": "2026-10-12",
   "contact": "info@aperiodic.io",
   "publisher": "Aperiodic",
   "disclosure": "Built by Aperiodic, which is one of the columns, so this is not an independent review. Nobody is ranked. Facts come from each vendor’s own public pages, with the date they were checked; rows marked judgement are opinion.",
@@ -1098,23 +1098,13 @@
       "note": "Acquired by Talos, announced 16 July 2025"
     },
     {
-      "id": "cm-community-update",
-      "vendor": "coin-metrics",
-      "title": "Coin Metrics: updates to Community data",
-      "urls": [
-        "https://coinmetrics.io/product-announcements/updates-to-coin-metrics-community-data/"
-      ],
-      "checked": "2026-07-28",
-      "note": "Community tier trimmed Oct 2025; Reference Rates, Research Asset Metrics, Atlas remain free"
-    },
-    {
       "id": "cm-community-api",
       "vendor": "coin-metrics",
       "title": "Coin Metrics docs: Community data API",
       "urls": [
         "https://gitbook-docs.coinmetrics.io/packages/coin-metrics-community-data"
       ],
-      "checked": "2026-10-01",
+      "checked": "2026-10-12",
       "note": "Community API: no key, 10 requests per 6 seconds per IP; Atlas 30 days on limited assets; Reference Rates last 7 points at granular resolutions; paid ~300 req/s"
     },
     {
@@ -1176,7 +1166,7 @@
       "urls": [
         "https://www.amberdata.io/market-data"
       ],
-      "checked": "2026-07-28",
+      "checked": "2026-10-12",
       "note": "Basic tier excludes granular order book; higher tier adds low-latency order book access"
     },
     {
@@ -2033,6 +2023,216 @@
       ],
       "checked": "2026-10-05",
       "note": "Bybit exchange support listed as planned"
+    },
+    {
+      "id": "coin-metrics-coin-metrics-community-data",
+      "vendor": "coin-metrics",
+      "title": "Coin Metrics Community Data",
+      "urls": [
+        "https://docs.coinmetrics.io/packages/coin-metrics-community-data"
+      ],
+      "checked": "2026-10-12",
+      "note": "This is available for limited assets and 30 days of history."
+    },
+    {
+      "id": "coin-metrics-updates-to-coin-metrics-community-data",
+      "vendor": "coin-metrics",
+      "title": "Updates to Coin Metrics Community Data",
+      "urls": [
+        "https://www.talos.com/insights/updates-to-coin-metrics-community-data"
+      ],
+      "checked": "2026-10-12",
+      "note": "Interested in a Pro License? Contact Us"
+    },
+    {
+      "id": "coin-metrics-coin-metrics-community-data-2",
+      "vendor": "coin-metrics",
+      "title": "Coin Metrics Community Data",
+      "urls": [
+        "https://docs.coinmetrics.io/packages/coin-metrics-community-data"
+      ],
+      "checked": "2026-10-12",
+      "note": "Coin Metrics Community Metrics (Community API, Data Visualization) is a subset of our Network Data Pro and Market Data Pro data available for free for community use."
+    },
+    {
+      "id": "coin-metrics-coin-metrics-community-data-3",
+      "vendor": "coin-metrics",
+      "title": "Coin Metrics Community Data",
+      "urls": [
+        "https://docs.coinmetrics.io/packages/coin-metrics-community-data"
+      ],
+      "checked": "2026-10-12",
+      "note": "This is available and limited to the last 7 data points."
+    },
+    {
+      "id": "coin-metrics-updates-to-coin-metrics-community-data-2",
+      "vendor": "coin-metrics",
+      "title": "Updates to Coin Metrics Community Data",
+      "urls": [
+        "https://www.talos.com/insights/updates-to-coin-metrics-community-data"
+      ],
+      "checked": "2026-10-12",
+      "note": "Interested in a Pro License? Contact Us"
+    },
+    {
+      "id": "exchange-archives-draft-binance-vision-terms-of-use-non-co",
+      "vendor": "exchange-archives",
+      "title": "[Draft] Binance Vision - Terms of Use (Non-Commercial)",
+      "urls": [
+        "https://data.binance.vision/Binance_Vision-Terms_of_Use.pdf"
+      ],
+      "checked": "2026-10-12",
+      "note": "[Draft] Binance Vision - Terms of Use (Non-Commercial)"
+    },
+    {
+      "id": "kaiko-about-kaiko",
+      "vendor": "kaiko",
+      "title": "About Kaiko",
+      "urls": [
+        "https://docs.kaiko.com/getting-started/about-kaiko"
+      ],
+      "checked": "2026-10-12",
+      "note": "delivers institutional-grade digital asset market data, analytics, indices, and data infrastructure for tokenized and traditional markets."
+    },
+    {
+      "id": "kaiko-data-dictionary-2",
+      "vendor": "kaiko",
+      "title": "Data dictionary",
+      "urls": [
+        "https://docs.kaiko.com/explore-our-data/data-dictionary"
+      ],
+      "checked": "2026-10-12",
+      "note": "Implied volatility calculation - surface"
+    },
+    {
+      "id": "kaiko-exchange-codes",
+      "vendor": "kaiko",
+      "title": "Exchange codes",
+      "urls": [
+        "https://docs.kaiko.com/rest-api/reference-data/exchange-codes"
+      ],
+      "checked": "2026-10-12",
+      "note": "curl --compressed -H 'Accept: application/json' 'https://reference-data-api.kaiko.io/v1/exchanges'"
+    },
+    {
+      "id": "amberdata-frequently-asked-questions-faq-ordering-",
+      "vendor": "amberdata",
+      "title": "Frequently Asked Questions (FAQ) - Ordering Market Data Online from Amberdata",
+      "urls": [
+        "https://www.amberdata.io/online-market-data-ordering-faq"
+      ],
+      "checked": "2026-10-12",
+      "note": "One year historical lookback via API"
+    },
+    {
+      "id": "amberdata-frequently-asked-questions-faq-ordering--2",
+      "vendor": "amberdata",
+      "title": "Frequently Asked Questions (FAQ) - Ordering Market Data Online from Amberdata",
+      "urls": [
+        "https://www.amberdata.io/online-market-data-ordering-faq"
+      ],
+      "checked": "2026-10-12",
+      "note": "Each subscription includes: 250,000 API requests per day"
+    },
+    {
+      "id": "amberdata-frequently-asked-questions-faq-ordering--3",
+      "vendor": "amberdata",
+      "title": "Frequently Asked Questions (FAQ) - Ordering Market Data Online from Amberdata",
+      "urls": [
+        "https://www.amberdata.io/online-market-data-ordering-faq"
+      ],
+      "checked": "2026-10-12",
+      "note": "No contract is required. This is a subscription billed monthly or yearly. You can cancel at any time from your billing portal."
+    },
+    {
+      "id": "amberdata-frequently-asked-questions-faq-ordering--4",
+      "vendor": "amberdata",
+      "title": "Frequently Asked Questions (FAQ) - Ordering Market Data Online from Amberdata",
+      "urls": [
+        "https://www.amberdata.io/online-market-data-ordering-faq"
+      ],
+      "checked": "2026-10-12",
+      "note": "Each subscription includes: 250,000 API requests per day"
+    },
+    {
+      "id": "amberdata-frequently-asked-questions-faq-ordering--5",
+      "vendor": "amberdata",
+      "title": "Frequently Asked Questions (FAQ) - Ordering Market Data Online from Amberdata",
+      "urls": [
+        "https://www.amberdata.io/online-market-data-ordering-faq"
+      ],
+      "checked": "2026-10-12",
+      "note": "One year historical lookback via API"
+    },
+    {
+      "id": "coin-metrics-access-our-data",
+      "vendor": "coin-metrics",
+      "title": "Access Our Data",
+      "urls": [
+        "https://gitbook-docs.coinmetrics.io/access-our-data"
+      ],
+      "checked": "2026-10-12",
+      "note": "You want whole datasets, multi-year, landed in your own object storage or warehouse"
+    },
+    {
+      "id": "coin-metrics-rate-limits",
+      "vendor": "coin-metrics",
+      "title": "Rate limits",
+      "urls": [
+        "https://gitbook-docs.coinmetrics.io/cm-api-spec/rate-limits"
+      ],
+      "checked": "2026-10-12",
+      "note": "Default (PRO): 6000 requests per 20 seconds per API key"
+    },
+    {
+      "id": "coin-metrics-cm-market-data-pro-institutional-crypto-",
+      "vendor": "coin-metrics",
+      "title": "CM Market Data Pro | Institutional Crypto Market Data | Talos",
+      "urls": [
+        "https://www.talos.com/our-solutions/data/market-data-pro"
+      ],
+      "checked": "2026-10-12",
+      "note": "Request a demo"
+    },
+    {
+      "id": "coinapi-legal-terms-aup-and-privacy-policy",
+      "vendor": "coinapi",
+      "title": "Legal Terms, AUP and Privacy Policy",
+      "urls": [
+        "https://www.coinapi.io/legal"
+      ],
+      "checked": "2026-10-12",
+      "note": "This customer agreement (\"Agreement\") is a legal agreement between you and API BRICKS LTD F/K/A COINAPI LTD UTR 8050945 (\"Company\", \"our\", \"we\" or \"us\"), an United Kingdom company"
+    },
+    {
+      "id": "coindesk-data-coindesk-unveils-strategic-rebrand-of-cc",
+      "vendor": "coindesk-data",
+      "title": "CoinDesk Unveils Strategic Rebrand of CCData to CoinDesk Data",
+      "urls": [
+        "https://data.coindesk.com/press-releases/coindesk-unveils-strategic-rebrand-of-ccdata-to-coindesk-data"
+      ],
+      "checked": "2026-10-12",
+      "note": "CoinDesk, a trusted leader in media, events, and indices for the global crypto economy, announces the rebrand of CCData to CoinDesk Data. ... The integration follows CoinDesk's strategic acquisition of CCData in November 2024"
+    },
+    {
+      "id": "coinapi-how-far-back-does-coinapi-historical-dat",
+      "vendor": "coinapi",
+      "title": "How Far Back Does CoinAPI Historical Data Go?",
+      "urls": [
+        "https://www.coinapi.io/blog/crypto-historical-data-depth-ohlcv-timeframes"
+      ],
+      "checked": "2026-10-12",
+      "note": "Tick-level trades and quotes are stored from each exchange's launch date. Available via REST, WebSocket, and FIX. Coverage varies by symbol and venue, not by plan gimmicks."
+    },
+    {
+      "id": "coingecko-coin-historical-chart-data-by-id-coingec",
+      "vendor": "coingecko",
+      "title": "Coin Historical Chart Data by ID - CoinGecko API",
+      "urls": [
+        "https://docs.coingecko.com/reference/coins-id-market-chart"
+      ],
+      "checked": "2026-10-12",
+      "note": "Historical data on the Basic plan is restricted to the past 2 years. Subscribe to Analyst plan & above for the full range."
     }
   ],
   "cells": [
@@ -2053,11 +2253,9 @@
       "status": "fact",
       "value": "Institutional market data, benchmarks and analytics",
       "sources": [
-        "kaiko-data-dictionary",
-        "kaiko-dev-hub",
-        "kaiko-home"
+        "kaiko-about-kaiko"
       ],
-      "checked": "2026-07-28"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "aperiodic",
@@ -2252,10 +2450,12 @@
     {
       "vendor": "coinapi",
       "criterion": "ownership",
-      "status": "not-verified",
-      "value": "Not verified",
-      "sources": [],
-      "checked": "2026-10-01"
+      "status": "fact",
+      "value": "Operated by API Bricks Ltd (UK; formerly CoinAPI Ltd)",
+      "sources": [
+        "coinapi-legal-terms-aup-and-privacy-policy"
+      ],
+      "checked": "2026-10-12"
     },
     {
       "vendor": "crypto-lake",
@@ -2281,9 +2481,9 @@
       "status": "fact",
       "value": "The exchange itself",
       "sources": [
-        "exchange-archives-binance"
+        "exchange-archives-draft-binance-vision-terms-of-use-non-co"
       ],
-      "checked": "2026-07-28"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "amberdata",
@@ -2298,10 +2498,12 @@
     {
       "vendor": "coindesk-data",
       "criterion": "ownership",
-      "status": "not-verified",
-      "value": "Not verified",
-      "sources": [],
-      "checked": "2026-10-01"
+      "status": "fact",
+      "value": "CoinDesk; acquired CCData Nov 2024, rebranded it CoinDesk Data",
+      "sources": [
+        "coindesk-data-coindesk-unveils-strategic-rebrand-of-cc"
+      ],
+      "checked": "2026-10-12"
     },
     {
       "vendor": "glassnode",
@@ -3130,10 +3332,9 @@
       "status": "fact",
       "value": "Limited on the community tier",
       "sources": [
-        "cm-community-api",
-        "cm-community-update"
+        "coin-metrics-coin-metrics-community-data"
       ],
-      "checked": "2026-07-28"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "exchange-archives",
@@ -3149,11 +3350,11 @@
       "vendor": "amberdata",
       "criterion": "history-by-plan",
       "status": "fact",
-      "value": "Negotiated",
+      "value": "One year on monthly billing; full history on yearly billing",
       "sources": [
-        "amberdata-pricing"
+        "amberdata-frequently-asked-questions-faq-ordering-"
       ],
-      "checked": "2026-09-25"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "coindesk-data",
@@ -6665,10 +6866,9 @@
       "status": "fact",
       "value": "Broad: L2 aggregations, indices, vol surfaces",
       "sources": [
-        "kaiko-dev-hub",
-        "kaiko-l2-aggregations"
+        "kaiko-data-dictionary-2"
       ],
-      "checked": "2026-07-28"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "aperiodic",
@@ -7037,9 +7237,9 @@
       "status": "fact",
       "value": "REST API, websocket, Python client, S3 or Snowflake cloud delivery, data downloader",
       "sources": [
-        "cm-community-api"
+        "coin-metrics-access-our-data"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "exchange-archives",
@@ -7219,11 +7419,11 @@
       "vendor": "coin-metrics",
       "criterion": "rate-limits",
       "status": "fact",
-      "value": "Community: 10 requests per 6 seconds per IP (about 1.7 req/s); Pro about 300 req/s",
+      "value": "Community: 10 requests per 6 seconds per IP; Pro: 6000 requests per 20 seconds per API key",
       "sources": [
-        "cm-community-api"
+        "coin-metrics-rate-limits"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "exchange-archives",
@@ -7239,11 +7439,11 @@
       "vendor": "amberdata",
       "criterion": "rate-limits",
       "status": "fact",
-      "value": "Per contract",
+      "value": "250,000 requests/day; 20 requests/second; 20 WebSocket connections",
       "sources": [
-        "amberdata-pricing"
+        "amberdata-frequently-asked-questions-faq-ordering--2"
       ],
-      "checked": "2026-09-25"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "coindesk-data",
@@ -7404,7 +7604,7 @@
       "sources": [
         "cm-community-api"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "exchange-archives",
@@ -7582,10 +7782,9 @@
       "status": "fact",
       "value": "Free community tier, then enterprise contract",
       "sources": [
-        "cm-community-api",
-        "cm-community-update"
+        "coin-metrics-updates-to-coin-metrics-community-data"
       ],
-      "checked": "2026-07-28"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "exchange-archives",
@@ -7601,12 +7800,11 @@
       "vendor": "amberdata",
       "criterion": "pricing-model",
       "status": "fact",
-      "value": "Negotiated contract; basic and order-book tiers",
+      "value": "Monthly or yearly self-serve subscription with no contract; Startup and Enterprise plans quoted on request",
       "sources": [
-        "amberdata-market-data",
-        "amberdata-pricing"
+        "amberdata-frequently-asked-questions-faq-ordering--3"
       ],
-      "checked": "2026-07-28"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "coindesk-data",
@@ -7767,10 +7965,9 @@
       "status": "fact",
       "value": "Metric coverage, history depth and request rate",
       "sources": [
-        "cm-community-api",
-        "cm-community-update"
+        "coin-metrics-coin-metrics-community-data-2"
       ],
-      "checked": "2026-07-28"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "exchange-archives",
@@ -7786,11 +7983,11 @@
       "vendor": "amberdata",
       "criterion": "price-gates",
       "status": "fact",
-      "value": "Scope of the contract; granular order book sits above basic",
+      "value": "Exchanges selected; granular order book in Advanced, not Basic",
       "sources": [
         "amberdata-market-data"
       ],
-      "checked": "2026-07-28"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "coindesk-data",
@@ -7951,7 +8148,7 @@
       "sources": [
         "cm-community-api"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "exchange-archives",
@@ -8131,10 +8328,9 @@
       "status": "fact",
       "value": "A subset of network and market metrics, all Reference Rates (last 7 points at granular resolutions) and Atlas (30 days, limited assets); no key needed",
       "sources": [
-        "cm-community-api",
-        "cm-community-update"
+        "coin-metrics-coin-metrics-community-data-3"
       ],
-      "checked": "2026-07-28"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "exchange-archives",
@@ -8150,11 +8346,11 @@
       "vendor": "amberdata",
       "criterion": "entry-plan",
       "status": "fact",
-      "value": "Nothing published",
+      "value": "Self-serve subscription: 250,000 requests/day; one year of history on monthly billing",
       "sources": [
-        "amberdata-pricing"
+        "amberdata-frequently-asked-questions-faq-ordering--4"
       ],
-      "checked": "2026-09-25"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "coindesk-data",
@@ -8271,11 +8467,11 @@
       "vendor": "kaiko",
       "criterion": "keyless-access",
       "status": "partial",
-      "value": "Partial, Kaiko free tier for reference data",
+      "value": "Partial, reference data example request has no API key; docs say every request needs one",
       "sources": [
-        "kaiko-dev-hub"
+        "kaiko-exchange-codes"
       ],
-      "checked": "2026-07-28"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "aperiodic",
@@ -8316,7 +8512,7 @@
       "sources": [
         "cm-community-api"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "exchange-archives",
@@ -8490,9 +8686,9 @@
       "status": "partial",
       "value": "Community yes, Pro via sales",
       "sources": [
-        "cm-community-api"
+        "coin-metrics-cm-market-data-pro-institutional-crypto-"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "exchange-archives",
@@ -8934,10 +9130,12 @@
     {
       "vendor": "coinapi",
       "criterion": "monthly-full-history",
-      "status": "not-verified",
-      "value": "Not verified",
-      "sources": [],
-      "checked": "2026-10-05"
+      "status": "yes",
+      "value": "Yes; history not limited by plan, monthly plans available",
+      "sources": [
+        "coinapi-how-far-back-does-coinapi-historical-dat"
+      ],
+      "checked": "2026-10-12"
     },
     {
       "vendor": "crypto-lake",
@@ -8955,10 +9153,9 @@
       "status": "no",
       "value": "No, full history is an enterprise contract; the free community tier is limited",
       "sources": [
-        "cm-community-api",
-        "cm-community-update"
+        "coin-metrics-updates-to-coin-metrics-community-data-2"
       ],
-      "checked": "2026-07-28"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "exchange-archives",
@@ -8973,12 +9170,12 @@
     {
       "vendor": "amberdata",
       "criterion": "monthly-full-history",
-      "status": "not-documented",
-      "value": "Not documented; plans are quoted on request",
+      "status": "no",
+      "value": "No; monthly gets one year of history, full history needs yearly billing",
       "sources": [
-        "amberdata-pricing"
+        "amberdata-frequently-asked-questions-faq-ordering--5"
       ],
-      "checked": "2026-09-25"
+      "checked": "2026-10-12"
     },
     {
       "vendor": "coindesk-data",
@@ -9029,10 +9226,12 @@
     {
       "vendor": "coingecko",
       "criterion": "monthly-full-history",
-      "status": "not-verified",
-      "value": "Not verified",
-      "sources": [],
-      "checked": "2026-10-05"
+      "status": "yes",
+      "value": "Yes, Analyst plan and above, monthly or annual billing (Basic limited to past 2 years)",
+      "sources": [
+        "coingecko-coin-historical-chart-data-by-id-coingec"
+      ],
+      "checked": "2026-10-12"
     },
     {
       "vendor": "coinglass",
@@ -9072,6 +9271,121 @@
     }
   ],
   "changelog": [
+    {
+      "date": "2026-10-12",
+      "vendor": "coingecko",
+      "change": "CoinGecko / Full historical data access on a monthly subscription: now documented as \"Yes, Analyst plan and above, monthly or annual billing (Basic limited to past 2 years)\" (docs.coingecko.com)"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "coinapi",
+      "change": "CoinAPI / Full historical data access on a monthly subscription: now documented as \"Yes; history not limited by plan, monthly plans available\" (coinapi.io)"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "coindesk-data",
+      "change": "CoinDesk Data / Ownership: now documented as \"CoinDesk; acquired CCData Nov 2024, rebranded it CoinDesk Data\" (data.coindesk.com)"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "coinapi",
+      "change": "CoinAPI / Ownership: now documented as \"Operated by API Bricks Ltd (UK; formerly CoinAPI Ltd)\" (coinapi.io)"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "coin-metrics",
+      "change": "Coin Metrics / Self-serve signup: source moved to https://www.talos.com/our-solutions/data/market-data-pro"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "coin-metrics",
+      "change": "Coin Metrics / Rate limits or volume caps: \"Community: 10 requests per 6 seconds per IP (about 1.7 req/s); Pro about 300 req/s\" is now \"Community: 10 requests per 6 seconds per IP; Pro: 6000 requests per 20 seconds per API key\" (gitbook-docs.coinmetrics.io)"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "coin-metrics",
+      "change": "Coin Metrics / Delivery format: source moved to https://gitbook-docs.coinmetrics.io/access-our-data"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "amberdata",
+      "change": "Amberdata / Full historical data access on a monthly subscription: \"Not documented; plans are quoted on request\" is now \"No; monthly gets one year of history, full history needs yearly billing\" (amberdata.io)"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "amberdata",
+      "change": "Amberdata / What you get at the entry price: \"Nothing published\" is now \"Self-serve subscription: 250,000 requests/day; one year of history on monthly billing\" (amberdata.io)"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "amberdata",
+      "change": "Amberdata / How the pricing works: \"Online card checkout by selected exchanges, plus demo/quote route; Basic and Advanced (order book) tiers\" is now \"Monthly or yearly self-serve subscription with no contract; Startup and Enterprise plans quoted on request\" (amberdata.io)"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "amberdata",
+      "change": "Amberdata / Rate limits or volume caps: \"Per contract\" is now \"250,000 requests/day; 20 requests/second; 20 WebSocket connections\" (amberdata.io)"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "amberdata",
+      "change": "Amberdata / How much history you actually get: \"Negotiated\" is now \"One year on monthly billing; full history on yearly billing\" (amberdata.io)"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "kaiko",
+      "change": "Kaiko / Usable without an API key: \"Partial, Kaiko free tier for reference data\" is now \"Partial, reference data example request has no API key; docs say every request needs one\" (docs.kaiko.com)"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "kaiko",
+      "change": "Kaiko / Breadth of derived catalogue: source moved to https://docs.kaiko.com/explore-our-data/data-dictionary"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "kaiko",
+      "change": "Kaiko / Primary product: source moved to https://docs.kaiko.com/getting-started/about-kaiko"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "exchange-archives",
+      "change": "Exchange archives / Ownership: source moved to https://data.binance.vision/Binance_Vision-Terms_of_Use.pdf"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "coin-metrics",
+      "change": "Coin Metrics / Full historical data access on a monthly subscription: source moved to https://www.talos.com/insights/updates-to-coin-metrics-community-data"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "coin-metrics",
+      "change": "Coin Metrics / What you get at the entry price: source moved to https://docs.coinmetrics.io/packages/coin-metrics-community-data"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "coin-metrics",
+      "change": "Coin Metrics / What the price gates: source moved to https://docs.coinmetrics.io/packages/coin-metrics-community-data"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "coin-metrics",
+      "change": "Coin Metrics / How the pricing works: source moved to https://www.talos.com/insights/updates-to-coin-metrics-community-data"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "coin-metrics",
+      "change": "Coin Metrics / How much history you actually get: source moved to https://docs.coinmetrics.io/packages/coin-metrics-community-data"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "amberdata",
+      "change": "Amberdata / What the price gates: \"Scope of the contract; granular order book sits above basic\" is now \"Exchanges selected; granular order book in Advanced, not Basic\" (amberdata.io)"
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "amberdata",
+      "change": "Amberdata / How the pricing works: \"Negotiated contract; basic and order-book tiers\" is now \"Online card checkout by selected exchanges, plus demo/quote route; Basic and Advanced (order book) tiers\" (amberdata.io)"
+    },
     {
       "date": "2026-10-06",
       "vendor": "aperiodic",
