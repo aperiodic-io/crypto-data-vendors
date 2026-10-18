@@ -869,7 +869,7 @@
         "https://aperiodic.io/api/v1/metadata/raw"
       ],
       "checked": "2026-10-05",
-      "note": "19 datasets, 220 metrics, 5 categories, 3 venues; 1m to 1d self-serve, 15s/30s on Institutional; 6 raw datasets on all 3 venues: trades and quotes from 2019-09 (OKX), 2020-01 (Binance), 2025-01 (Hyperliquid), mark/index price, funding and open interest up to 2 months later; every raw row carries exchange_timestamp and local_timestamp; Hyperliquid derivative exchange timestamps are modelled; impact metrics include Amihud-like illiquidity and Kyle-like lambda"
+      "note": "19 datasets, 220 metrics, 5 categories, 3 venues; 1m to 1d self-serve, 15s/30s on Institutional; 5 raw datasets on all 3 venues: trades and quotes from 2019-09 (OKX), 2020-01 (Binance), 2025-01 (Hyperliquid), mark/index price, funding up to 2 months later; every raw row carries exchange_timestamp and local_timestamp; Hyperliquid derivative exchange timestamps are modelled; impact metrics include Amihud-like illiquidity and Kyle-like lambda"
     },
     {
       "id": "aperiodic-pricing",
@@ -3130,7 +3130,7 @@
       "vendor": "aperiodic",
       "criterion": "earliest-data",
       "status": "fact",
-      "value": "Raw trades and quotes: OKX perps from 2019-09, Binance futures from 2020-01, Hyperliquid perps from 2025-01; mark/index price, funding and open interest start up to 2 months later on each venue",
+      "value": "Raw trades and quotes: OKX perps from 2019-09, Binance futures from 2020-01, Hyperliquid perps from 2025-01; mark/index price, funding start up to 2 months later on each venue",
       "sources": [
         "aperiodic-catalog"
       ],
@@ -6874,7 +6874,7 @@
       "vendor": "aperiodic",
       "criterion": "catalogue-breadth",
       "status": "fact",
-      "value": "19 datasets, 5 categories, 220 metrics; plus 6 raw datasets on Prime + Raw",
+      "value": "19 datasets, 5 categories, 220 metrics; plus 5 raw datasets on Prime + Raw",
       "sources": [
         "aperiodic-catalog"
       ],
@@ -9403,7 +9403,7 @@
     {
       "date": "2026-10-02",
       "vendor": "aperiodic",
-      "change": "Aperiodic: raw start dates now match the published coverage (OKX 2019-09, Binance 2020-01, Hyperliquid 2025-01); Hyperliquid mark/index price, funding and open interest added, with modelled exchange timestamps; primary product no longer mentions raw order books, which are not offered."
+      "change": "Aperiodic: raw start dates now match the published coverage (OKX 2019-09, Binance 2020-01, Hyperliquid 2025-01); Hyperliquid mark/index price, funding added, with modelled exchange timestamps; primary product no longer mentions raw order books, which are not offered."
     },
     {
       "date": "2026-10-02",
