@@ -1,7 +1,7 @@
 {
   "title": "Crypto market data vendors compared",
   "compiled": "2026-07-28",
-  "updated": "2026-10-12",
+  "updated": "2026-10-17",
   "contact": "info@aperiodic.io",
   "publisher": "Aperiodic",
   "disclosure": "Built by Aperiodic, which is one of the columns, so this is not an independent review. Nobody is ranked. Facts come from each vendor’s own public pages, with the date they were checked; rows marked judgement are opinion.",
@@ -880,7 +880,7 @@
         "https://aperiodic.io/llms.txt"
       ],
       "checked": "2026-10-05",
-      "note": "$199 to $1,499/month billed yearly ($249 to $1,899 monthly); Pro, Prime and Prime + Raw self-serve; 4 years on Pro, 5 years on Prime and Prime + Raw, monthly or yearly ($499 and $1,899 month to month); API rate limits high on Pro, none on Prime and Prime + Raw; Pro covers 15 of 19 metric datasets, Prime all 19; Live add-on (real-time stream over Kafka) on Pro and Prime; Institutional adds full history, real-time for Prime + Raw, S3 and custom delivery; raw L2 order book: not offered yet; personal licence on Pro and Prime, commercial licence on Prime + Raw; raw data on Prime + Raw"
+      "note": "$199 to $1,499/month billed yearly ($249 to $1,899 monthly); Pro, Prime, Prime Commercial and Prime + Raw self-serve; 4 years on Pro, 5 years on Prime, Prime Commercial and Prime + Raw, monthly or yearly ($499, $999 and $1,899 month to month); API rate limits high on Pro, none on the Prime plans; Pro covers 15 of 19 metric datasets, Prime all 19; real-time WebSocket stream on every plan; Institutional adds full history, Kafka, S3 and custom delivery; raw L2 order book: not offered yet; personal licence on Pro and Prime, commercial licence on Prime Commercial and Prime + Raw; raw data on Prime + Raw"
     },
     {
       "id": "aperiodic-home",
@@ -7202,7 +7202,7 @@
       "vendor": "aperiodic",
       "criterion": "delivery-format",
       "status": "fact",
-      "value": "Parquet via CLI, REST API and Python SDK; a real-time stream over Kafka as a Live add-on on Pro and Prime (Institutional for Prime + Raw); S3 and custom delivery on Institutional",
+      "value": "Parquet via CLI, REST API and Python SDK; a real-time WebSocket stream on every plan; Kafka, S3 and custom delivery on Institutional",
       "sources": [
         "aperiodic-agents",
         "aperiodic-catalog",
@@ -7750,7 +7750,7 @@
       "vendor": "aperiodic",
       "criterion": "pricing-model",
       "status": "fact",
-      "value": "Tiered subscription: Pro, Prime and Prime + Raw self-serve, with a Live add-on on Pro and Prime, plus quoted Institutional",
+      "value": "Tiered subscription: Pro, Prime, Prime Commercial and Prime + Raw self-serve, each with a real-time stream, plus quoted Institutional",
       "sources": [
         "aperiodic-pricing"
       ],
@@ -9121,7 +9121,7 @@
       "vendor": "aperiodic",
       "criterion": "monthly-full-history",
       "status": "partial",
-      "value": "Partial, Prime ($499/month) and Prime + Raw ($1,899/month) include 5 years billed month to month; full history is Institutional",
+      "value": "Partial, Prime ($499/month), Prime Commercial ($999/month) and Prime + Raw ($1,899/month) include 5 years billed month to month; full history is Institutional",
       "sources": [
         "aperiodic-pricing"
       ],
@@ -9271,6 +9271,11 @@
     }
   ],
   "changelog": [
+    {
+      "date": "2026-10-17",
+      "vendor": "aperiodic",
+      "change": "Aperiodic: every self-serve plan now includes the real-time stream, and the Live add-ons are retired. Prime stays on a personal licence at $399/month billed yearly ($499 month to month); the new Prime Commercial carries a commercial licence at $799/month billed yearly ($999 month to month). Pro and Prime + Raw keep their prices."
+    },
     {
       "date": "2026-10-12",
       "vendor": "coingecko",
