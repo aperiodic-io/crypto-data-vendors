@@ -1,7 +1,7 @@
 {
   "title": "Crypto market data vendors compared",
   "compiled": "2026-07-28",
-  "updated": "2026-10-17",
+  "updated": "2026-11-05",
   "contact": "info@aperiodic.io",
   "publisher": "Aperiodic",
   "disclosure": "Built by Aperiodic, which is one of the columns, so this is not an independent review. Nobody is ranked. Facts come from each vendor’s own public pages, with the date they were checked; rows marked judgement are opinion.",
@@ -879,8 +879,8 @@
         "https://aperiodic.io/pricing",
         "https://aperiodic.io/llms.txt"
       ],
-      "checked": "2026-10-05",
-      "note": "$199 to $1,499/month billed yearly ($249 to $1,899 monthly); Pro, Prime, Prime Commercial and Prime + Raw self-serve; 4 years on Pro, 5 years on Prime, Prime Commercial and Prime + Raw, monthly or yearly ($499, $999 and $1,899 month to month); API rate limits high on Pro, none on the Prime plans; Pro covers 15 of 19 metric datasets, Prime all 19; real-time WebSocket stream on every plan; Institutional adds full history, Kafka, S3 and custom delivery; raw L2 order book: not offered yet; personal licence on Pro and Prime, commercial licence on Prime Commercial and Prime + Raw; raw data on Prime + Raw"
+      "checked": "2026-11-05",
+      "note": "$199 to $1,499/month billed yearly ($249 to $1,899 monthly); Pro, Prime, Prime Commercial and Prime + Raw self-serve; 5 years on Pro, full history on Prime, Prime Commercial and Prime + Raw, monthly or yearly ($499, $999 and $1,899 month to month); API rate limits high on Pro, none on the Prime plans; Pro covers 15 of 19 metric datasets, Prime all 19; real-time WebSocket stream on every plan; Institutional adds an SLA, Kafka, S3 and custom delivery; raw L2 order book: not offered yet; personal licence on Pro and Prime, commercial licence on Prime Commercial and Prime + Raw; raw data on Prime + Raw"
     },
     {
       "id": "aperiodic-home",
@@ -3300,11 +3300,11 @@
       "vendor": "aperiodic",
       "criterion": "history-by-plan",
       "status": "fact",
-      "value": "4 years on Pro; 5 years on Prime and Prime + Raw; full history on Institutional",
+      "value": "5 years on Pro; full history on Prime, Prime + Raw and Institutional",
       "sources": [
         "aperiodic-pricing"
       ],
-      "checked": "2026-10-05"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "coinapi",
@@ -8296,7 +8296,7 @@
       "vendor": "aperiodic",
       "criterion": "entry-plan",
       "status": "fact",
-      "value": "Pro: 15 of 19 metric datasets (market data, trades and derivatives, plus L1 Price), 4 years of history, 1m to 1d, personal licence",
+      "value": "Pro: 15 of 19 metric datasets (market data, trades and derivatives, plus L1 Price), 5 years of history, 1m to 1d, personal licence",
       "sources": [
         "aperiodic-pricing"
       ],
@@ -9120,12 +9120,12 @@
     {
       "vendor": "aperiodic",
       "criterion": "monthly-full-history",
-      "status": "partial",
-      "value": "Partial, Prime ($499/month), Prime Commercial ($999/month) and Prime + Raw ($1,899/month) include 5 years billed month to month; full history is Institutional",
+      "status": "yes",
+      "value": "Yes, Prime ($499/month), Prime Commercial ($999/month) and Prime + Raw ($1,899/month) include full history billed month to month",
       "sources": [
         "aperiodic-pricing"
       ],
-      "checked": "2026-10-05"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "coinapi",
@@ -9271,6 +9271,11 @@
     }
   ],
   "changelog": [
+    {
+      "date": "2026-11-05",
+      "vendor": "aperiodic",
+      "change": "Aperiodic: Prime, Prime Commercial and Prime + Raw now include full history, monthly or yearly, in place of the 5-year window, and Pro goes from 4 to 5 years."
+    },
     {
       "date": "2026-10-17",
       "vendor": "aperiodic",
