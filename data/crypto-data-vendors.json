@@ -1,7 +1,7 @@
 {
   "title": "Crypto market data vendors compared",
   "compiled": "2026-07-28",
-  "updated": "2026-11-05",
+  "updated": "2026-11-10",
   "contact": "info@aperiodic.io",
   "publisher": "Aperiodic",
   "disclosure": "Built by Aperiodic, which is one of the columns, so this is not an independent review. Nobody is ranked. Facts come from each vendor’s own public pages, with the date they were checked; rows marked judgement are opinion.",
@@ -652,7 +652,7 @@
         "https://tardis.dev/",
         "https://docs.tardis.dev/faq/billing-and-subscriptions"
       ],
-      "checked": "2026-10-01",
+      "checked": "2026-11-05",
       "note": "Pricing is subscription type x data plan x billing interval; from $350/month (Academic, Perpetuals or Options, quarterly or yearly) to $6,000/month (Business, All Exchanges)"
     },
     {
@@ -662,7 +662,7 @@
       "urls": [
         "https://docs.tardis.dev/faq/billing-and-subscriptions"
       ],
-      "checked": "2026-10-01",
+      "checked": "2026-11-05",
       "note": "Yearly billing: Business gets all history since 2019-03-30, Academic, Solo and Pro get 4 years; quarterly 12 months; monthly 4 months"
     },
     {
@@ -672,7 +672,7 @@
       "urls": [
         "https://docs.tardis.dev/faq/billing-and-subscriptions"
       ],
-      "checked": "2026-10-01",
+      "checked": "2026-11-05",
       "note": "CSV downloads on all plans; Pro and Business add raw replay API, tardis-machine, instruments metadata"
     },
     {
@@ -879,8 +879,8 @@
         "https://aperiodic.io/pricing",
         "https://aperiodic.io/llms.txt"
       ],
-      "checked": "2026-11-05",
-      "note": "$199 to $1,499/month billed yearly ($249 to $1,899 monthly); Pro, Prime, Prime Commercial and Prime + Raw self-serve; 5 years on Pro, full history on Prime, Prime Commercial and Prime + Raw, monthly or yearly ($499, $999 and $1,899 month to month); API rate limits high on Pro, none on the Prime plans; Pro covers 15 of 19 metric datasets, Prime all 19; real-time WebSocket stream on every plan; Institutional adds an SLA, Kafka, S3 and custom delivery; raw L2 order book: not offered yet; personal licence on Pro and Prime, commercial licence on Prime Commercial and Prime + Raw; raw data on Prime + Raw"
+      "checked": "2026-11-10",
+      "note": "Free: every metric for 2025 on BTC, ETH, SOL and 10 RWA perps, 1,000 requests a day, personal licence (checked 2026-11-10); $199 to $1,499/month billed yearly ($249 to $1,899 monthly); Pro, Prime, Prime Commercial and Prime + Raw self-serve; 5 years on Pro, full history on Prime, Prime Commercial and Prime + Raw, monthly or yearly ($499, $999 and $1,899 month to month); API rate limits high on Pro, none on the Prime plans; Pro covers 15 of 19 metric datasets, Prime all 19; real-time WebSocket stream on every plan; Institutional adds an SLA, Kafka, S3 and custom delivery; raw L2 order book: not offered yet; personal licence on Pro and Prime, commercial licence on Prime Commercial and Prime + Raw; raw data on Prime + Raw"
     },
     {
       "id": "aperiodic-home",
@@ -1002,7 +1002,7 @@
       "urls": [
         "https://crypto-lake.com/subscribe/"
       ],
-      "checked": "2026-10-01",
+      "checked": "2026-11-05",
       "note": "Individual plan $80/month (20% off for 6 months for new subscribers), 300 GB/month soft limit, companies not eligible; company plan $500/month, 3 TB/quarter"
     },
     {
@@ -1137,6 +1137,16 @@
       ],
       "checked": "2026-07-28",
       "note": "Free venue-published dumps"
+    },
+    {
+      "id": "exchange-archives-binance-terms",
+      "vendor": "exchange-archives",
+      "title": "Binance Vision dataset terms (version 1.0, last updated August 26, 2026)",
+      "urls": [
+        "https://github.com/binance/binance-public-data/blob/master/TERMS_AND_CONDITIONS.md"
+      ],
+      "checked": "2026-11-05",
+      "note": "Datasets are licensed CC BY-NC-SA 4.0; commercial use needs a separate written enterprise data licence with Binance; personal non-production backtesting is a permitted use"
     },
     {
       "id": "amberdata-analytics",
@@ -1483,7 +1493,7 @@
       "urls": [
         "https://laevitas.ch/pricing"
       ],
-      "checked": "2026-10-01",
+      "checked": "2026-11-05",
       "note": "Free 1 week; Premium $50/seat, 1 year; Enterprise $500/seat incl. API history; API v2 on 5 exchanges"
     },
     {
@@ -1693,7 +1703,7 @@
       "urls": [
         "https://www.coinglass.com/pricing"
       ],
-      "checked": "2026-10-01",
+      "checked": "2026-11-05",
       "note": "$29 to $699/month; 30 to 1,200 req/min; commercial use from Standard; venue list"
     },
     {
@@ -3284,7 +3294,7 @@
       "sources": [
         "tardis-billing-history"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "kaiko",
@@ -3394,7 +3404,7 @@
       "sources": [
         "laevitas-pricing"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "cryptoquant",
@@ -7413,7 +7423,7 @@
       "sources": [
         "lake-subscribe"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "coin-metrics",
@@ -7513,7 +7523,7 @@
       "sources": [
         "coinglass-pricing"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "coinalyze",
@@ -7734,7 +7744,7 @@
       "sources": [
         "tardis-pricing"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "kaiko",
@@ -7774,7 +7784,7 @@
       "sources": [
         "lake-subscribe"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "coin-metrics",
@@ -7845,7 +7855,7 @@
       "sources": [
         "laevitas-pricing"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "cryptoquant",
@@ -7875,7 +7885,7 @@
       "sources": [
         "coinglass-pricing"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "coinalyze",
@@ -7917,7 +7927,7 @@
         "tardis-billing-plans",
         "tardis-pricing"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "kaiko",
@@ -7957,7 +7967,7 @@
       "sources": [
         "lake-subscribe"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "coin-metrics",
@@ -7973,11 +7983,11 @@
       "vendor": "exchange-archives",
       "criterion": "price-gates",
       "status": "fact",
-      "value": "Nothing",
+      "value": "Nothing for non-commercial use; Binance licenses its archive CC BY-NC-SA 4.0, and commercial use needs a separate written licence from Binance",
       "sources": [
-        "exchange-archives-binance"
+        "exchange-archives-binance-terms"
       ],
-      "checked": "2026-07-28"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "amberdata",
@@ -8028,7 +8038,7 @@
       "sources": [
         "laevitas-pricing"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "cryptoquant",
@@ -8058,7 +8068,7 @@
       "sources": [
         "coinglass-pricing"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "coinalyze",
@@ -8098,7 +8108,7 @@
       "sources": [
         "tardis-pricing"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "kaiko",
@@ -8114,11 +8124,11 @@
       "vendor": "aperiodic",
       "criterion": "entry-price",
       "status": "fact",
-      "value": "$199/month billed yearly ($249 month to month)",
+      "value": "Free; Pro $199/month billed yearly ($249 month to month)",
       "sources": [
         "aperiodic-pricing"
       ],
-      "checked": "2026-10-05"
+      "checked": "2026-11-10"
     },
     {
       "vendor": "coinapi",
@@ -8138,7 +8148,7 @@
       "sources": [
         "lake-subscribe"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "coin-metrics",
@@ -8210,7 +8220,7 @@
       "sources": [
         "laevitas-pricing"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "cryptoquant",
@@ -8239,7 +8249,7 @@
       "sources": [
         "coinglass-pricing"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "coinalyze",
@@ -8296,11 +8306,11 @@
       "vendor": "aperiodic",
       "criterion": "entry-plan",
       "status": "fact",
-      "value": "Pro: 15 of 19 metric datasets (market data, trades and derivatives, plus L1 Price), 5 years of history, 1m to 1d, personal licence",
+      "value": "Free: all 19 metric datasets for 2025 on BTC, ETH, SOL and 10 RWA perps, 1m to 1d, 1,000 requests a day, personal licence. Pro: 15 of 19 datasets on every perp, 5 years of history",
       "sources": [
         "aperiodic-pricing"
       ],
-      "checked": "2026-10-05"
+      "checked": "2026-11-10"
     },
     {
       "vendor": "coinapi",
@@ -8320,7 +8330,7 @@
       "sources": [
         "lake-subscribe"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "coin-metrics",
@@ -8390,7 +8400,7 @@
       "sources": [
         "laevitas-pricing"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "cryptoquant",
@@ -8420,7 +8430,7 @@
       "sources": [
         "coinglass-pricing"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "coinalyze",
@@ -9105,7 +9115,7 @@
       "sources": [
         "tardis-billing-history"
       ],
-      "checked": "2026-10-01"
+      "checked": "2026-11-05"
     },
     {
       "vendor": "kaiko",
@@ -9432,6 +9442,15 @@
     {
       "date": "2026-10-05",
       "change": "Synced with the sheet: the 'Caveats on the early history' and 'Exchange timestamp' rows are gone and the columns follow the sheet's order. Aperiodic.io: 4 years of history on Core and Pro, Bybit on the roadmap, raw L2 order books coming soon, L2 depth and imbalance as aggregates."
+    },
+    {
+      "date": "2026-11-05",
+      "change": "Pricing re-read on the vendors' own pages for the new pricing page: Tardis.dev, CoinGlass, Crypto Lake and Laevitas entry prices, entry plans, pricing models, price gates and history limits are unchanged, and their check dates moved to today."
+    },
+    {
+      "date": "2026-11-05",
+      "vendor": "exchange-archives",
+      "change": "Exchange archives: what the price gates now says that Binance licenses its archive CC BY-NC-SA 4.0, so commercial use needs a separate licence (Binance's dataset terms, updated August 26, 2026). It said Nothing."
     }
   ]
 }
